@@ -4,13 +4,10 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I'm Ed Berwick, a Senior Azure Platform Solution Architect at IBM, based in London, with over 10 years of experience in infrastructure consultancy and operational leadership.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+ I have expertise in Microsoft technologies, Cloud platforms, and infrastructure solutions, including, Microsoft Azure, Windows Server, Citrix, Cisco, and HP systems. 
+ 
+ Previously, I have held various roles at Avanade and Michael Page, focusing on infrastructure management and digital transformation. I am recognized for my strong analytical and troubleshooting skills and have been SC cleared. 
+ 
+ I hold/have held varions Microsoft and other vendor certifications.
