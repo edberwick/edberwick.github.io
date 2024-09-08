@@ -3,7 +3,7 @@ layout: base
 ---
 
 <div class="intro-header"></div>
-
+<script src="/assets/js/activate_photoswipe.js" type="module"></script>
 <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   {% if page.before-content %}
     <div class="before-content">
@@ -11,6 +11,7 @@ layout: base
         {% include {{ file }} %}
       {% endfor %}
     </div>
+    
   {% endif %}
 
   {{ content }}
