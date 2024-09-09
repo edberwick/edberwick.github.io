@@ -22,7 +22,3 @@ How about a car?
 It can also be centered!
 
 ![Car](https://bezsez.co.uk/uploads/lemans/0P7A3024.jpeg){: .mx-auto.d-block :}
-
-
-716584
-
