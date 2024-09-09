@@ -1,4 +1,4 @@
-import Lightbox from './photoswipe_lightbox.esm.min.js'
+import Lightbox from './photoswipe-lightbox.esm.min.js'
 
 const photoswipeActivations = document.getElementsByClassName('photoswipe-activation')
 
