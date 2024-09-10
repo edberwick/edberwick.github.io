@@ -14,8 +14,8 @@ I hold/have held various Microsoft and other vendor certifications.
 
 ![Azure Associate](/assets/img/azure-administrator-associate-600x600.png){: width="160" }
 
-![Azure Architect](/assets/img/azure-solutions-architect-expert-600x600.png=160x160)
+![Azure Architect](/assets/img/azure-solutions-architect-expert-600x600.png){: width="160" }
 
-![Azure Virtual Desktop](/assets/img/azure-virtual-desktop-specialty-600x600.png=160x160)
+![Azure Virtual Desktop](/assets/img/azure-virtual-desktop-specialty-600x600.png){: width="160" }
 
-![Green Software](/assets/img/green_software.png=160x160){: width="160" }
+![Green Software](/assets/img/green_software.png){: width="160" }
