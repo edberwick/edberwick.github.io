@@ -46,11 +46,13 @@ Azure firewall provides three types of rule, DNAT Rule, Network Rule and Applica
 - **Network rules**: These specify source addresses, protocols, destination ports, and destination addresses.
 - **Application rules**: These define fully qualified domain names (FQDNs) that can be accessed from a subnet.
 
-When deploying and configuring applications, it was identified that even with traffic flows allowed through Application rules traffic wasn’t hitting the second firewall NVA as expected. Traffic was seen being processed by the Azure Firewall but the traffic was not getting to the NVA. Curiously traffic directed to Microsoft endpoint URLs that were being allowed through a Network Rule that used service tags was being passed to the NVA.
+When deploying and configuring applications, it was identified that even with traffic flows allowed through Application rules, traffic wasn’t hitting the second firewall NVA as expected. Traffic was seen being processed by the Azure Firewall but the traffic was not getting to the NVA. Traffic directed to Microsoft endpoint URLs that was allowed through a Network rule that used service tags was being passed to the NVA.
 
-Armed with the genesis of a theory, Azure Firewall configuration was updated to provide DNS Proxy which allows the use of FQDN's in Network rules. A network rule was configured to match the application rule and finally application traffic started to hit the NVA and egress out to the internet.
+## Solution
+
+Armed with the genesis of a theory, Azure Firewall configuration was updated to provide DNS Proxy which allows the use of FQDN's in Network rules. A Network rule was configured to match the application rule and finally application traffic started to hit the NVA and egress out to the internet.
 
 {: .box-note}
-**Note:** Network rules are much less flexible than Application rules, you must enter the full FQDN, and wildcards are not allowed in a network rule, so "*.microsoft.com" becomes "www.microsoft.com"
+**Note:** Network rules are much less flexible than Application rules, you must enter the full FQDN, and wildcards are not allowed in a Network rule, so "*.microsoft.com" becomes "www.microsoft.com"
 
 This behaviour suggest that leveraging force tunnel mode prevents the Application rules from working. I suspect this is because internally Azure Firewall expects traffic matching Application rules to egress through it's own public IP, and it does not expect the traffic to pass through the firewall service. Definitely one to watch out for.
