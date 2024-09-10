@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Why you want to have me working on your project...
 ---
 
 I'm Ed, a Senior Azure Platform Solution Architect at IBM, based in London, with over 10 years of experience in infrastructure consultancy and operational leadership.
