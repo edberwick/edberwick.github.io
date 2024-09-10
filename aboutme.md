@@ -12,10 +12,10 @@ Previously, I have held various roles at Avanade and Michael Page, focusing on i
 
 I hold/have held various Microsoft and other vendor certifications.
 
-![Azure Associate](/assets/img/azure-administrator-associate-600x600.png)
+![Azure Associate](/assets/img/azure-administrator-associate-600x600.png =160x160)
 
-![Azure Architect](/assets/img/azure-solutions-architect-expert-600x600.png)
+![Azure Architect](/assets/img/azure-solutions-architect-expert-600x600.png =160x160)
 
-![Azure Virtual Desktop](/assets/img/azure-virtual-desktop-specialty-600x600.png)
+![Azure Virtual Desktop](/assets/img/azure-virtual-desktop-specialty-600x600.png =160x160)
 
-![Green Software](/assets/img/green_software.png)
+![Green Software](/assets/img/green_software.png =160x160)
