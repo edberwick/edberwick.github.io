@@ -12,7 +12,7 @@ I've recently come across a scenario where a customer wished to deploy an Azure 
 
 Their infrastructure pattern was broadly aligned with the Azure Cloud Adoption framework utilising the “traditional” network topology with a network hub containing the gateway and firewall with workload spokes peered with this hub.
 
-![Hub and Spoke](/assets/img/N_S_Traffic_Flow.png){: .mx-auto.d-block :}
+![Hub and Spoke](/assets/img/N_S_Traffic_Flow.png){: .mx-auto.d-block :}{: height="600" }
 
  <https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/traditional-azure-networking-topology>
 
