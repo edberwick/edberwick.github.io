@@ -11,7 +11,7 @@ How about a car?
 
 <div class="photoswipe-gallery">
   {% include photo.html
-     url="/uploads/lemans/0P7A3024.jpeg"
+     url="/assets/img/0P7A3024.jpeg"
      thumb_width="200" alt="Adorable creature"
      full_width="600" full_height="380"
   %}
