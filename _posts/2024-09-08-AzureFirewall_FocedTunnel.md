@@ -51,6 +51,6 @@ When deploying and configuring applications, it was identified that even with tr
 Armed with the genesis of a theory Azure Firewall configuration was updated to provide DNS Proxy which allows the use of FQDN's in Network rules. A network rule was configured to match the application rule and then application traffic started to hit the NVA and egress out to the internet.
 
 {: .box-note}
-**Note:** Network rules are much less fleixble than Application rules, you must enter the full FQDN, and wildcards are not allowed in a network rule, so <*.microsoft.com> becomes <www.microsoft.com>
+**Note:** Network rules are much less fleixble than Application rules, you must enter the full FQDN, and wildcards are not allowed in a network rule, so "*.microsoft.com" becomes "www.microsoft.com"
 
 This behaviour suggest that leveraging force tunnel mode prevents the Application rules from working. I suspect this is because internally Azure Firewall expects traffic matching Applicaiton rules to egress through it's own public IP, and it does not expect the traffic to pass through the firewall service. Definitely one to watch out for.
