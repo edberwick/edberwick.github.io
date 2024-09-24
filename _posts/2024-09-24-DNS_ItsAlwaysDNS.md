@@ -44,15 +44,15 @@ Typically organisations will setup their own, centralised Private DNS zones to e
 
 When setting up an Azure Migrate project and the Private Endpoint option is chosen
 
-![Azure Migrate - Configure Endpoint](/assets/img/Azure_Migrate_Config.png){: .mx-auto.d-block :}{: height="600" }
+![Azure Migrate - Configure Endpoint](/assets/img/Azure_Migrate_Config.png){: .mx-auto.d-block :}
 
 The project and appliance creation process creates several private endpoints, which is great (yes I did name my applaince dave).
 
-![Azure Migrate - PRivate Endpoints](/assets/img/Azure_Migrate_Endpoints.png){: .mx-auto.d-block :}{: height="600" }
+![Azure Migrate - PRivate Endpoints](/assets/img/Azure_Migrate_Endpoints.png){: .mx-auto.d-block :}
 
 As well as several private DNS Zones which is not so great.
 
-![Azure Migrate - Private DNS Zones](/assets/img/Azure_Migrate_Endpoints.png){: .mx-auto.d-block :}{: height="600" }
+![Azure Migrate - Private DNS Zones](/assets/img/Azure_Migrate_Endpoints.png){: .mx-auto.d-block :}
 
 Whilst this behaviour is okay(ish) when you have a greenfield environment that does not have any existing private DNS zones, if you have an environment that has existing cloud native workloads or you used the Microsoft Platform Landing Zone Accelerator [Platform landing zone accelerator](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/#platform-landing-zone-accelerator) (and why wouldn't you?), then you've now got another bunch of DNS Zones that are outside of your carefully governed Private DNS solution.
 
