@@ -8,11 +8,11 @@ author: Ed Berwick
 
 ## Introduction
 
-This post has a slightly different tack to my previous post. In this post i want to describe a frustration I have with what is essentially a very good tool. I know there are multiple ways around the problem, but my frustration comes from the fact the solutiosn are manual and require a bit of thingking about to ensure ongoing success. What is fortunate is tthe resolutions for the issues are mainly a once and done, but might require you to grant higher levels of priviledge than you might want to, to allow remediation of the issue.
+This post has a slightly different tack to my previous post. In this post i want to describe a frustration I have with what is essentially a very good tool. I know there are multiple ways around the problem, but my frustration comes from the fact the solutions are manual and require a bit of thought to ensure ongoing success. What is fortunate is the resolutions for the issues are mainly a once and done, but might require you to grant higher levels of privilege than you might want to allow remediation of the issue.
 
 ## Azure Migrate
 
-Azure Migrate is a great tool, there, I said it. It is one of those nice simple tools that just does what it says on the tin, especially when it comes to migrating workloads from a VMWare source. With the Azure Migrate Appliance, agentless migration is pretty simple and painless, as long as the pre-requisites of permissions, connectivity and the VMDDK are all in place, then the process of migration is pretty smooth. It'll even turn off the source VM for you.
+Azure Migrate is a great tool, there, I said it. It is one of those nice simple tools that just does what it says on the tin, especially when it comes to migrating workloads from a VMWare source. With the Azure Migrate Appliance, agentless migration is pretty simple and painless. As long as the pre-requisites of permissions, connectivity and VMDDK are all in place, then the process of migration is pretty smooth. It'll even turn off the source VM for you.
 
 {: .box-note}
 **Note:** On the subject of VMDDK, if you're migrating from an older version of VSphere you should try and use the closest version of the VMDDK that you can. VMDDK version 8 does not seem to play nicely with VSPhere 6.0 for example.
@@ -36,9 +36,9 @@ Control Traffic will still traverse the internet, however replication traffic wi
 
 ## Private DNS
 
-Prviate endpoints are interfaces for services that exist in your private network in Azure, private endpoints will inherit the same DNS name as the public endppoint. To ensure that intranet resources resolve the correct address, private DNS zones are deployed to ptovide intranet resolution of services to these private endpoints.
+Private endpoints are interfaces for services that exist in your private network in Azure, private endpoints will inherit the same DNS name as the public endpoint. To ensure that intranet resources resolve the correct address, private DNS zones are deployed to provide intranet resolution of services to these private endpoints.
 
-Typically organisations will setup their own, centralised Private DNS zones to ensure a single aource of DNS truth and ensure that these DNS zones are appropriately managed and controlled, no one wants rogue DNS entries.
+Typically organisations will setup their own, centralised Private DNS zones to ensure a single source of DNS truth and ensure that these DNS zones are appropriately managed and controlled, no one wants rogue DNS entries.
 
 ## Azure Migrate Private Endpoint Setup
 
@@ -46,18 +46,18 @@ When setting up an Azure Migrate project and the Private Endpoint option is chos
 
 ![Azure Migrate - Configure Endpoint](/assets/img/Azure_Migrate_Config.png){: .mx-auto.d-block :}
 
-The project and appliance creation process creates several private endpoints, which is great (yes I did name my applaince dave).
+The project and appliance creation process creates several private endpoints, which is great (yes I did name my appliance dave).
 
-![Azure Migrate - PRivate Endpoints](/assets/img/Azure_Migrate_Endpoints.png){: .mx-auto.d-block :}
+![Azure Migrate - Private Endpoints](/assets/img/Azure_Migrate_Endpoints.png){: .mx-auto.d-block :}
 
 As well as several private DNS Zones which is not so great.
 
 ![Azure Migrate - Private DNS Zones](/assets/img/Azure_Migrate_Endpoints.png){: .mx-auto.d-block :}
 
-Whilst this behaviour is okay(ish) when you have a greenfield environment that does not have any existing private DNS zones, if you have an environment that has existing cloud native workloads or you used the Microsoft Platform Landing Zone Accelerator [Platform landing zone accelerator](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/#platform-landing-zone-accelerator) (and why wouldn't you?), then you've now got another bunch of DNS Zones that are outside of your carefully governed Private DNS solution.
+Whilst this behaviour is okay(ish) when you have a greenfield environment that does not have any existing private DNS zones, if you have an environment that has existing cloud native workloads or you used the Microsoft [Platform landing zone accelerator](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/#platform-landing-zone-accelerator) (and why wouldn't you?), then you've now got another bunch of DNS Zones that are outside of your carefully governed Private DNS solution.
 
-Depending on your organisaiotn Operating Model you may have a scenario where the team who manage DNS are not the same team who will be configuring and managing Azure Migrate, you can look to delegate priviledges through PAM and privledges only to Specific DNS zones, but it doesn't feel that elegant.
+Depending on your organisations Operating Model you may have a scenario where the team who manage DNS are not the same team who will be configuring and managing Azure Migrate, you can look to delegate privileges through PAM and grant privileges only to specific DNS zones, but it doesn't feel that elegant.
 
-This also adds a layer of complexity to the configuraiton and troubleshootign in the future, but then I guess that's why we're still gainfully employed.
+This also adds a layer of complexity to the configuration and troubleshooting in the future, but then I guess that's why we're still gainfully employed.
 
 As I said it's always DNS.
