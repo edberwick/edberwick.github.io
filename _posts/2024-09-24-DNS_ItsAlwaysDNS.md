@@ -12,10 +12,10 @@ This post has a slightly different tack to my previous post. In this post i want
 
 ## Azure Migrate
 
-Azure Migrate is a great tool, there, I said it. It is one of those nice simple tools that just does what it says on the tin, especially when it comes to migrating workloads from a VMWare source. With the Azure Migrate Appliance, agentless migration is pretty simple and painless. As long as the pre-requisites of permissions, connectivity and VMDDK are all in place, then the process of migration is pretty smooth. It'll even turn off the source VM for you.
+Azure Migrate is a great tool, there, I said it. It is one of those nice simple tools that just does what it says on the tin, especially when it comes to migrating workloads from a VMWare source. With the Azure Migrate Appliance, agentless migration is pretty simple and painless. As long as the pre-requisites of permissions, connectivity and VDDK are all in place, then the process of migration is pretty smooth. It'll even turn off the source VM for you.
 
 {: .box-note}
-**Note:** On the subject of VMDDK, if you're migrating from an older version of VSphere you should try and use the closest version of the VMDDK that you can. VMDDK version 8 does not seem to play nicely with VSPhere 6.0 for example.
+**Note:** On the subject of VDDK, if you're migrating from an older version of VSphere you should try and use the closest version of the VDDK that you can. VDDK version 8 does not seem to play nicely with VSPhere 6.0 for example.
 
 ## Connectivity
 
