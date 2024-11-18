@@ -179,10 +179,10 @@ gtag: "G-G72E6K8X10"
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
-matomo:
-  site_id: "1"
-  uri: "bezsez.matomo.cloud"
-  opt-out: true
+#matomo:
+  #site_id: "1"
+  #uri: "bezsez.matomo.cloud"
+  #opt-out: true
 
 # Google Universal Analytics ID -- deprecated
 # As of July 2023 this is no longer supported by Google! If you are still using `google_analytics`,
