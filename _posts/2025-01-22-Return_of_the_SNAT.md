@@ -56,7 +56,7 @@ Given the Architecture that has been deployed with the Hub Spoke and DMZ
 
 There are a couple of approaches.
 
-#### Option 1 - Create a new separate landing zone environment for the Windows 365 ANC deployment 
+#### Option 1 - Create a new separate landing zone environment for the Windows 365 ANC deployment
 
 This is a good option in large W365 deployments where you have 000's of devices which will all be trying to communicate with the internet and the applications. A separate landing zone will allow the user traffic to be segregated from the application traffic.
 
@@ -68,7 +68,7 @@ Why does this matter, well Azure Firewall is under the hood a set of scale units
 
  Separating the W365 users from the application infrastructure should reduce the impact of this firewall scaling and random load changes.
 
- #### Option 2 - Split routing
+#### Option 2 - Split routing
 
  This redesigns the Hub to include the Firewall NVA as well as the Azure Firewall, meaning that the Web/Azure Edge traffic does not actually pass through the Azure firewall, it goes directly to the Firewall NVA. Traffic is routed so that all RFC 1918 traffic routes to the Azure Firewall and all other traffic routes to the Firewall NVA.
 
