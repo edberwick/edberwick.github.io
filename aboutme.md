@@ -15,3 +15,24 @@ I hold/have held various Microsoft and other vendor certifications.
 | ![Azure Associate](/assets/img/azure-administrator-associate-600x600.png){: width="160" } | ![Azure Architect](/assets/img/azure-solutions-architect-expert-600x600.png){: width="160" } |
 | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | ![Azure Virtual Desktop](/assets/img/azure-virtual-desktop-specialty-600x600.png){: width="160" } | ![Green Software](/assets/img/green_software.png){: width="160" }
+
+
+<p float="left">
+  <img src="/assets/img/azure-administrator-associate-600x600.png" width="33%" />
+  <img src="/assets/img/azure-solutions-architect-expert-600x600.png" width="33%" />
+  <img src="/assets/img/azure-virtual-desktop-specialty-600x600.png" width="33%" />
+</p>
+
+<div style="display: flex; flex-direction: row;">>
+  <img src="/assets/img/azure-administrator-associate-600x600.png" width="33%" />
+  <img src="/assets/img/azure-solutions-architect-expert-600x600.png" width="33%" />
+  <img src="/assets/img/azure-virtual-desktop-specialty-600x600.png" width="33%" />
+</div>
+
+<p float="left">
+  <img src="/assets/img/azure-administrator-associate-600x600.png" width="33%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/assets/img/azure-solutions-architect-expert-600x600.png" width="33%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/assets/img/azure-virtual-desktop-specialty-600x600.png" width="33%" />
+</p>
