@@ -13,7 +13,7 @@ Previously, I have held various roles at Avanade and Michael Page, focusing on i
 I hold/have held various Microsoft and other vendor certifications.
 
 <div style="display: flex; flex-direction: row;">>
-  <img src="/assets/img/azure-administrator-associate-600x600.png" width="33%" />
-  <img src="/assets/img/azure-solutions-architect-expert-600x600.png" width="33%" />
-  <img src="/assets/img/azure-virtual-desktop-specialty-600x600.png" width="33%" />
+  <img src="/assets/img/azure-administrator-associate-600x600.png" width="20%" />
+  <img src="/assets/img/azure-solutions-architect-expert-600x600.png" width="20%" />
+  <img src="/assets/img/azure-virtual-desktop-specialty-600x600.png" width="20%" />
 </div>
