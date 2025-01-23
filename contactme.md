@@ -18,12 +18,22 @@ If you'd like to discuss my blog, point out errors or just open up a diaglog, pl
     </div>
   </div>
   <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
-
-  <div class="g-recaptcha" data-sitekey="6Levj9waAAAAAKjnDWEPUfENn91YBRofBG7VxCUP" data-callback="enableSubmitContact"></div>
-  <input type="hidden" name="_feedback.success.title" value="Thanks for contacting AttaliTech, we'll be in touch shortly!" />
-  <input type="hidden" name="_email.from" value="Formspark AttaliTech" />
-  <input type="hidden" name="_feedback.error.title" value="An error occurred (did you check the &quot;I'm not a robot&quot; box?)" />
-
   <br />
   <button id="submit_contact" type="submit" class="btn btn-lg btn-primary" disabled="">Submit</button>
+</form>
+
+
+<form action="https://submit-form.com/AFg98qIxe">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" placeholder="Name" required="" />
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Email" required="" />
+  <label for="message">Message</label>
+  <textarea
+    id="message"
+    name="message"
+    placeholder="Message"
+    required=""
+  ></textarea>
+  <button type="submit">Send</button>
 </form>
