@@ -50,7 +50,7 @@ Ahh so it's a framework? Yes, and it's a framework that expands the capabilities
 
 Whilst my colleague was guiding me through the framework, it became very clear to me that the dimensions that we talk about when it comes to cloud costs are often wrong. We talk around the absolute cost of compute, the absolute cost of storage without providing the business value of Cloud services, what are the returns on investment?
 
-We need to start thinking about how to **Quantify Business Value** by including metrics such as **Unit Economics** in our calculations, if for example you have a service that for every £10 you spend on compute you actually increase revenue by £100 perhaps there is less need to focus on this service than the service that provides a 10:5 ratio of input to revenue.
+We need to start thinking about how to **Quantify Business Value** by including metrics such as **Unit Economics** in our calculations. If, for example, you have a service that for every £10 you invest in compute it actually increase revenue by £100 (a 1:10 ratio), perhaps time and effort would be better spent focusing on the service that provides a 10:5 ratio of investment to revenue, this is Data Driven Decision Making.
 
 Remember the Engineer who might cause your organisation go to the way of Barings Bank, well **Anomaly Detection** capabilities within the FinOps framework should help to reduce the risk of this occurring.
 
