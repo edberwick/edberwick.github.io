@@ -45,7 +45,7 @@ _FinOps is an operational framework and cultural practice which maximizes the bu
 
 Ahh so it's a framework? Yes, and it's a framework that expands the capabilities I've highlighted above (the bold words) and brings them together to drive a cultural practice to maximise the business value of cloud.
 
-![FinOps Framework](https://www.finops.org/wp-content/uploads/2024/03/FinOps-Framework-Poster-v4.pdf){: .mx-auto.d-block :}
+[![FinOps Framework](https://www.finops.org//wp-content/uploads/2024/03/Framework-Overview-Hero-v2-1.svg){: .mx-auto.d-block :}](https://www.finops.org/wp-content/uploads/2024/03/FinOps-Framework-Poster-v4.pdf)
 
 ### New Capabilities
 
