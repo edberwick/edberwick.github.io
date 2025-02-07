@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We're all getting FinOps wrong
-subtitle: Fin Ops is just about reduction of cloud spend right? RIGHT??
+subtitle: FinOps is just about reduction of cloud spend right? RIGHT??
 tags: [azure, finops, opinion, process, foundation ]
 author: Ed Berwick
 ---
