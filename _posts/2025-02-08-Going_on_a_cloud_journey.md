@@ -53,6 +53,6 @@ These issues come to a head when security do become more involved, often they do
 
 In the same way that the FinOps framework helps to maximise the value of Cloud, a successful cloud journey requires the involvement of all of the Shared architecture pillars.
 
-[![Shared architecture pillars](en-us/azure/cloud-adoption-framework/_images/ready/shared-principles.png){: .mx-auto.d-block :}](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/_images/ready/shared-principles.png)
+[![Shared architecture pillars](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/_images/ready/shared-principles.png){: .mx-auto.d-block :}](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/_images/ready/shared-principles.png)
 
 Security is a key part of this and should be included from the very beginning, organisations can't bring them in during a later stage of the cloud journey. They need to be on the bus at the very beginning. All aboard!
