@@ -10,7 +10,7 @@ author: Ed Berwick
 
 Yesterday I sat down (virtually) with a colleague who has been at my organisation for a similar length of time, however our paths haven't yet crossed. This is probably because part of my role as an Azure Solution Architect is to drive cloud (Azure) consumption and his, as the FinOps lead is to stop me doing that, or so I thought...
 
-In actuality I came out of our conversation converted, or at the very least I had a much better appreciation of the term FinOps, what's below is a very high level 1 day in appreciation but I think it's an appreciation that needs to be understood.
+In actuality I came out of our conversation converted, or at the very least I had a much better appreciation of the term FinOps, what's below is a very high level, 1 day in, appreciation but I think it's an appreciation that needs to be understood.
 
 ## We've been getting it wrong
 
@@ -27,7 +27,7 @@ The above example, is when many organisations first start thinking about FinOps.
 
 ## New Challenges
 
-There are new challenges as well, in the past we had very well defined projects and we had absolute costs, the example my colleague provided was one that was ultimately very familiar to me. We want to build a data centre, we identify the business value or need, we form a project, run an RFP for Data Centre space, get quotes from our suppliers for hardware and software, and we run this through finance, and then the company governance structure who then hopefully provide a green light. These are fixed costs that stakeholders at a senior level sign off and can be budgeted for.
+There are new challenges as well, in the past we had very well defined projects and we had absolute costs, the example my colleague provided was one that was ultimately very familiar to me. We want to build a data centre, so we identify the business value or need, we form a project, run an RFP for Data Centre space, get quotes from our suppliers for hardware and software, and we run this through finance, and then the company governance structure who then hopefully provide a green light. These are fixed costs that stakeholders at a senior level sign off and can be budgeted for.
 
 Today we don't really do this, and certainly not at the level. These days it takes an engineer less than 10 lines of code and about 10 minutes to create a resource that might cost more in a month than a data centre might cost in its lifetime.
 
