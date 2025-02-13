@@ -45,7 +45,7 @@ These days security should be a fundamental component of the Cloud Journey, howe
 
 ### Did engineering drive off
 
-THe challenge is that most cloud deployments are driven by the engineering teams. As these teams deploy and manage workloads in the cloud, they also tend to be the teams who have most access to the service, they also by default, have a good working knowledge of the services available and are up to date on the new Services. You can't forget though, engineering teams have a focus on delivery and getting things done, they will know about the security features and capabilities, but often they drive the delivery of the cloud environment end to end and security are happy to let them.
+The challenge is that most cloud deployments are driven by the engineering teams. As these teams deploy and manage workloads in the cloud, they also tend to be the teams who have most access to the service, they also by default, have a good working knowledge of the services available and are up to date on the new Services. You can't forget though, engineering teams have a focus on delivery and getting things done, they will know about the security features and capabilities, but often they drive the delivery of the cloud environment end to end and security are happy to let them.
 
 These issues come to a head when security do become more involved, often they don't have cloud capabilities within their skill set. With no access and no knowledge of Cloud security they are on the back foot trying to play catchup with a engineering capability that's well ahead. This leads to frustration and friction on both sides reducing the agility of the engineering function.
 
