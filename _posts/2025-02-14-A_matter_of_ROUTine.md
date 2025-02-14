@@ -34,7 +34,7 @@ This means the environment looks a bit like this...
 
 Things seemed to be working well, but one of the team noticed some weird traffic showing up in the firewall logs. The traffic was coming from the Domain Controllers (DNS servers) and the source was 53 UDP, with the target being a high port.
 
-![Deny 53 from DC](/assets/img/Firewall_Deny.jpeg){: .mx-auto.d-block :}
+![Deny 53 from DC](/assets/img/Firewall_Deny.png){: .mx-auto.d-block :}
 
 This didn't sit right with me and I did a bit of thinking, as I said it didn't seem to be causing any noticeable issues, so at best it was a red herring when filtering for denied traffic, at worst it was having a background impact on the performance and behaviour of the firewall.
 
