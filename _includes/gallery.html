@@ -1,0 +1,5 @@
+{% capture gallery_name %}{{ include.gallery_name }}{% endcapture %}
+{% capture gallery_html %}
+  {% include_relative uploads/{{ gallery_name }}/gallery.html %}
+{% endcapture %}
+{{ gallery_html | markdownify }}
