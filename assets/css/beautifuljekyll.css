@@ -1157,7 +1157,12 @@ pre {
 .gallery img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 6px;
   display: block;
   break-inside: avoid;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
