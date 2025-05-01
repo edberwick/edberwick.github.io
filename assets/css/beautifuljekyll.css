@@ -1126,11 +1126,26 @@ pre {
 
 /* --- Custom Gallery Styles --- */
 
+/* Default: 3 columns (for large screens) */
 .gallery {
   column-count: 3;
   column-gap: 1rem;
-  max-width: 1000px;
+  max-width: 1200px; /* you can adjust this */
   margin: 2rem auto;
+}
+
+/* Medium screens: 2 columns */
+@media (max-width: 992px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+
+/* Small screens: 1 column */
+@media (max-width: 576px) {
+  .gallery {
+    column-count: 1;
+  }
 }
 
 .gallery a {
@@ -1145,16 +1160,4 @@ pre {
   border-radius: 8px;
   display: block;
   break-inside: avoid;
-}
-
-@media (max-width: 768px) {
-  .gallery {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery {
-    column-count: 1;
-  }
 }
