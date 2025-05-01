@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: photo
 title: Phtoswipe
 subtitle: LEt's get the photos running
-tags: [photos ]
+tags: [photos]
 author: Ed Berwick
 ---
 
