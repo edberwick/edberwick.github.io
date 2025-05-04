@@ -1,6 +1,25 @@
 <footer>
   <!-- In _includes/footer.html (before </body>) -->
   <script type="module" src="{{ '/assets/js/photoswipe-init.js' | relative_url }}"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const lazyImages = document.querySelectorAll('img.lazy-image');
+  
+      lazyImages.forEach(img => {
+        const realSrc = img.getAttribute('data-src');
+        if (realSrc) {
+          // Set up a listener for when the sharp image finishes loading
+          const sharpImage = new Image();
+          sharpImage.src = realSrc;
+          sharpImage.onload = () => {
+            img.src = realSrc;            // Swap in the sharp image
+            img.classList.add('loaded');  // Remove blur effect
+          };
+        }
+      });
+    });
+  </script>
+  
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">

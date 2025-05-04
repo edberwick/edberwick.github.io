@@ -16,3 +16,4 @@ beautiful-jekyll-theme-*.gem
 uploads/*/originals/
 generate-gallery.rb
 generate-gallery-enhanced.rb
+generate-gallery-enhanced_v2.rb
