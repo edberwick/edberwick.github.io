@@ -1,0 +1,8 @@
+{
+  "name": "swa-api",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "rss-parser": "^3.12.0"
+  }
+}
