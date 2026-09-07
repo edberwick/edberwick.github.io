@@ -4,7 +4,7 @@ title: Contact
 subtitle: Contact
 ---
 
-My fulltime role is with IBM, so please contact them for wider projects / programmes.
+My fulltime role is with Avanade, so please contact them for wider projects / programmes.
 
 If you'd like to discuss my blog, point out errors or just open up a diaglog, please fill out the form below.
 
