@@ -22,19 +22,13 @@ That's a recurring theme you'll find throughout this site.
 
 After years of working in consulting and architecture roles, I realised many of the most valuable lessons never make it into marketing brochures, vendor documentation or conference presentations.
 
-The reality of delivery is often far messier.
-
-Projects have constraints.
-
-Budgets are limited.
-
-Organisations have competing priorities.
-
-Architectures evolve.
-
-Sometimes good ideas fail.
-
-Sometimes bad ideas somehow survive.
+- The reality of delivery is often far messier.
+- Projects have constraints.
+- Budgets are limited.
+- Organisations have competing priorities.
+- Architectures evolve.
+- Sometimes good ideas fail.
+- Sometimes bad ideas somehow survive.
 
 This blog is my place to share those experiences, lessons learned and occasional opinions, in the hope they help somebody else facing similar challenges.
 
@@ -70,7 +64,7 @@ Developing teams, sharing knowledge and helping organisations create sustainable
 
 While technology pays the bills, it isn't my only passion.
 
-Outside of work you'll often find me behind a camera.
+Outside of work you'll often find me behind a camera, at the Gym or on a rugby pitch
 
 I enjoy photography, particularly motorsport and sports photography, and some of my favourite memories have been captured at events such as the Le Mans 24 Hours.
 
