@@ -1,9 +1,0 @@
-:root{--bg:#f7fafc;--card:#fff;--accent:#0067c5}
-body{margin:0;font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;background:var(--bg);color:#111}
-.app{max-width:980px;margin:2rem auto;padding:0 1rem}
-.app-header{background:var(--accent);color:#fff;padding:1.25rem;border-radius:8px}
-.feed{margin-top:1rem;display:grid;gap:1rem}
-.feed-item{background:var(--card);padding:1rem;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,0.05)}
-.feed-item h3{margin:0 0 0.25rem}
-.feed-item .meta{font-size:0.9rem;color:#555;margin-bottom:0.5rem}
-.error{color:#900}
