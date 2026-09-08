@@ -67,28 +67,39 @@
 
 .hero-card h1 {
 
-    color: #1E293B;
+    font-size: clamp(3rem, 5vw, 4.5rem);
 
-    font-size: 3rem;
+    line-height: 1.05;
 
-    line-height: 1.1;
+    letter-spacing: -0.03em;
 
     margin-bottom: 24px;
 
-    letter-spacing: -0.02em;
+    color: #1E293B;
+
+    max-width: 700px;
+}
+
+.hero-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
 }
 
 .hero-text {
-
-    color: #475569;
 
     font-size: 1.15rem;
 
     line-height: 1.9;
 
-    margin-bottom: 24px;
+    color: #475569;
 
     max-width: 700px;
+
+    margin-bottom: 20px;
 }
 
 .hero-buttons {
@@ -99,9 +110,9 @@
 
     gap: 12px;
 
-    margin-top: 30px;
+    margin-top: 35px;
 
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .hero-btn {
