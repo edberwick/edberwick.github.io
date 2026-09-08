@@ -1,25 +1,35 @@
 .hero-wrapper {
 
-    width: 100%;
+    width: 100vw;
 
-    max-width: 1200px;
+    position: relative;
 
-    margin: 0 auto 80px auto;
-}
+    left: 50%;
 
-.hero-card {
-       
-    max-width: 1000px;
-   
-    margin: 0 auto 60px auto;
+    right: 50%;
+
+    margin-left: -50vw;
+
+    margin-right: -50vw;
 
     display: flex;
 
-    gap: 50px;
+    justify-content: center;
+
+    margin-bottom: 80px;
+}
+
+.hero-card {
+
+    width: min(1200px, 92vw);
+
+    display: flex;
 
     align-items: center;
 
-    padding: 50px;
+    gap: 60px;
+
+    padding: 60px;
 
     background: #ffffff;
 
@@ -27,8 +37,6 @@
 
     box-shadow:
         0 20px 40px rgba(0,0,0,0.08);
-
-    margin-bottom: 70px;
 }
 
 .hero-image img {
