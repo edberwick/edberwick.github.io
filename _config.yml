@@ -162,6 +162,7 @@ site-css:
 site-js:
 #  - "/assets/js/custom-script.js"
   - "/assets/js/activate_photoswipe.js"
+  - "/assets/css/bezsez-home.css"
 
 #################################
 # --- Web Analytics Section --- #
