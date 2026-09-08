@@ -1,19 +1,21 @@
 .hero-card {
 
-  display: flex;
-  gap: 40px;
+    display: flex;
 
-  align-items: center;
+    gap: 50px;
 
-  padding: 40px;
+    align-items: center;
 
-  background: #ffffff;
+    padding: 50px;
 
-  border-radius: 16px;
+    background: #ffffff;
 
-  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    border-radius: 20px;
 
-  margin-bottom: 50px;
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.08);
+
+    margin-bottom: 70px;
 }
 
 .hero-image img {
@@ -44,85 +46,130 @@
 
 .hero-card h1 {
 
-  color: #1E293B;
+    color: #1E293B;
 
-  margin-bottom: 20px;
+    font-size: 3rem;
+
+    line-height: 1.1;
+
+    margin-bottom: 24px;
+
+    letter-spacing: -0.02em;
 }
 
 .hero-text {
 
-  color: #475569;
+    color: #475569;
 
-  line-height: 1.8;
+    font-size: 1.15rem;
+
+    line-height: 1.9;
+
+    margin-bottom: 24px;
+
+    max-width: 700px;
 }
 
 .hero-buttons {
 
-  display: flex;
+    display: flex;
 
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 
-  gap: 10px;
+    gap: 12px;
 
-  margin-top: 20px;
+    margin-top: 30px;
+
+    margin-bottom: 30px;
 }
 
 .hero-btn {
 
-  padding: 10px 18px;
+    display: inline-flex;
 
-  border-radius: 8px;
+    align-items: center;
 
-  text-decoration: none;
+    justify-content: center;
 
-  font-weight: 600;
+    padding: 12px 20px;
+
+    min-width: 140px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    text-decoration: none !important;
+
+    transition: all 0.2s ease;
 }
 
 .hero-btn-primary {
 
-  background: #0078D4;
+    background: #0078D4;
 
-  color: white;
+    color: white !important;
+}
+
+.hero-btn-primary:hover {
+
+    background: #005A9E;
+
+    color: white !important;
 }
 
 .hero-btn-secondary {
 
-  background: #FF6B35;
+    background: #FF6B35;
 
-  color: white;
+    color: white !important;
+}
+
+.hero-btn-secondary:hover {
+
+    background: #E85D26;
+
+    color: white !important;
 }
 
 .hero-btn-outline {
 
-  border: 2px solid #1E293B;
+    border: 2px solid #1E293B;
 
-  color: #1E293B;
+    color: #1E293B !important;
+}
+
+.hero-btn-outline:hover {
+
+    background: #1E293B;
+
+    color: white !important;
 }
 
 .expertise-tags {
 
-  display: flex;
+    display: flex;
 
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 
-  gap: 10px;
+    gap: 12px;
 
-  margin-top: 25px;
+    margin-top: 30px;
 }
 
 .expertise-tags span {
 
-  background: #EFF6FF;
+    background: #EFF6FF;
 
-  color: #0078D4;
+    color: #0078D4;
 
-  padding: 8px 14px;
+    padding: 10px 16px;
 
-  border-radius: 999px;
+    border-radius: 999px;
 
-  font-size: 0.85rem;
+    font-size: 0.9rem;
 
-  font-weight: 600;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
