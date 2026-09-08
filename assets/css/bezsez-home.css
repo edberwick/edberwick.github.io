@@ -1,4 +1,17 @@
+.hero-wrapper {
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    margin: 0 auto 80px auto;
+}
+
 .hero-card {
+       
+    max-width: 1000px;
+   
+    margin: 0 auto 60px auto;
 
     display: flex;
 
