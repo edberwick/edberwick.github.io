@@ -13,22 +13,21 @@
 
   box-shadow: 0 12px 30px rgba(0,0,0,0.08);
 
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .hero-image img {
 
-  width: 260px;
-  height: 260px;
+    width: 280px;
 
-  object-fit: cover;
+    max-width: 100%;
 
-  border-radius: 50%;
+    height: auto;
 
-  border: 6px solid white;
+    border-radius: 16px;
 
-  box-shadow:
-      0 10px 25px rgba(0,0,0,0.15);
+    box-shadow:
+        0 12px 30px rgba(0,0,0,0.15);
 }
 
 .hero-kicker {
