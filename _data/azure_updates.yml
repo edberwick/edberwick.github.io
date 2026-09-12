@@ -1,12 +1,14 @@
-- text: "Azure Firewall Premium — new IDPS signature set GA"
-  meta: "Networking · 2 days ago"
+- text: 'Retirement: Azure Linux with OS Guard in Azure Kubernetes Service'
+  meta: Retirements · Today
   dot: blue
-- text: "Cost Management: FinOps FOCUS 1.1 export now default"
-  meta: "FinOps · 4 days ago"
-  dot: amber
-- text: "Landing Zone accelerator — updated policy baseline"
-  meta: "Platform · 1 week ago"
+- text: 'Public Preview: Agentless migration of on-premises SMB file shares to Azure
+    Files (SMB)'
+  meta: Migration · Today
   dot: blue
-- text: "Azure Verified Modules — new Terraform release"
-  meta: "IaC · 1 week ago"
-  dot: cyan
+- text: 'Generally Available: TLS/SSL certificate and end-to-end TLS encryption support
+    for Azure Functions Flex Consumption'
+  meta: Compute · Yesterday
+  dot: avanade
+- text: 'Generally Available: Azure Copilot Troubleshooting Agent'
+  meta: Management and governance · Yesterday
+  dot: blue
