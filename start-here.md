@@ -74,7 +74,7 @@ You will find articles covering several connected areas:
 
 The common thread is practical delivery: what works, what does not and what I would do differently next time.
 
-[Browse all articles]({{ '/tags/'-
+
 
 ## About me
 
@@ -83,8 +83,6 @@ I am a Technical and Solution Architect with more than twenty years of technolog
 My background includes designing, building and operating enterprise infrastructure platforms, large-scale Active Directory environments, modern workplace technologies, Azure platforms and managed services.
 
 Today, much of my work focuses on helping organisations modernise securely, improve their operational capabilities and make better use of their technology investments.
-
-[Learn more about meative_url }}
 
 ---
 

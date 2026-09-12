@@ -1,0 +1,9 @@
+- text: "Reading: FinOps Foundation FOCUS 1.1 spec"
+  meta: "Now"
+  dot: cyan
+- text: "Building: a landing zone reference for regulated workloads"
+  meta: "Now"
+  dot: blue
+- text: "Aiming for: Microsoft MVP nomination, 2026"
+  meta: "Goal"
+  dot: amber

@@ -1,0 +1,60 @@
+---
+layout: home
+title: Ed Berwick
+subtitle: Azure Architect • FinOps Advocate • Technology Leader
+---
+<div class="hero-wrapper">
+
+    <div class="hero-card">
+
+    <div class="hero-image">
+        <img src="/assets/img/headshots/ed-berwick-dark.png"
+            alt="Ed Berwick">
+    </div>
+
+    <div class="hero-content">
+
+        <h1>
+        Practical Azure, FinOps and Cloud Transformation
+        </h1>
+
+        <p class="hero-text">
+        Sharing lessons learned from more than twenty years of designing, building and operating enterprise technology.
+        </p>
+
+        <p class="hero-text">
+        Helping organisations modernise securely, operate efficiently and maximise the value of their cloud investments.
+        </p>
+
+    <div class="hero-buttons">
+
+    <a href="{{ '/start-here/' | relative_url }}" class="hero-btn hero-btn-primary">
+        Start Here
+    </a>
+
+    <a href="{{ '/aboutme/' | relative_url }}" class="hero-btn hero-btn-secondary">
+        About Me
+    </a>
+
+    <a href="{{ '/photography/' | relative_url }}" class="hero-btn hero-btn-outline" >
+        Photography
+    </a>
+
+    </div>
+
+        <div class="expertise-tags">
+
+        <span>Azure</span>
+        <span>FinOps</span>
+        <span>Platform Engineering</span>
+            <span>Landing Zones</span>
+            <span>Managed Services</span>
+        <span>Cloud Adoption</span>
+        <span>Regulated Industries</span>
+
+        </div>
+
+    </div>
+
+    </div>
+</div>

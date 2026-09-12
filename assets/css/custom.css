@@ -1,0 +1,230 @@
+/* custom.css — loaded AFTER Beautiful Jekyll's main.css in _includes/head-custom.html
+   so these rules win. Covers: design tokens, nav/hero/panel components, and
+   generic markdown typography so every post written in _posts picks up the
+   look without per-post HTML. */
+
+:root{
+  --ink:#0A1220;
+  --ink-2:#101C30;
+  --ink-3:#16243B;
+  --line:rgba(255,255,255,0.09);
+  --line-strong:rgba(255,255,255,0.16);
+  --paper:#F3F6FA;
+  --slate:#93A6C2;
+  --slate-dim:#5E7093;
+  --azure:#2896E8;
+  --azure-deep:#0F6CBD;
+  --cyan:#57E6D6;
+  --avanade:#E3264A;
+  --amber:#E8A93B;
+}
+
+/* ---- base overrides ---- */
+body{
+  background:var(--ink) !important;
+  color:var(--paper) !important;
+  font-family:'IBM Plex Sans',-apple-system,sans-serif !important;
+  line-height:1.6;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:'Space Grotesk',sans-serif !important;
+  font-weight:600;
+  color:var(--paper) !important;
+  letter-spacing:-0.01em;
+}
+a{ color:var(--azure); }
+a:hover{ color:var(--cyan); }
+.mono{ font-family:'IBM Plex Mono',monospace; }
+
+/* ---- theme nav bar (Beautiful Jekyll default: .navbar / .navbar-custom) ---- */
+.navbar, .navbar-custom{
+  background:rgba(10,18,32,0.9) !important;
+  border-bottom:1px solid var(--line);
+}
+.navbar .navbar-brand, .navbar-custom .navbar-brand{ color:var(--paper) !important; }
+.navbar a, .navbar-custom a{ color:var(--slate) !important; }
+.navbar a:hover, .navbar-custom a:hover{ color:var(--paper) !important; }
+
+/* ---- theme footer ---- */
+footer, .footer{
+  background:var(--ink) !important;
+  border-top:1px solid var(--line);
+  color:var(--slate-dim) !important;
+}
+footer a, .footer a{ color:var(--slate) !important; }
+
+/* ---- shared components used by home.html + signal-panel.html ---- */
+.wrap{ max-width:1180px; margin:0 auto; padding:0 32px; }
+.btn{
+  font-size:14px;font-weight:500;padding:13px 22px;border-radius:6px;
+  display:inline-flex;align-items:center;gap:8px;
+}
+.btn-primary{ background:var(--azure-deep); color:#fff !important; border:1px solid var(--azure-deep); }
+.btn-primary:hover{ background:var(--azure); }
+.btn-ghost{ border:1px solid var(--line-strong); color:var(--paper) !important; }
+.btn-ghost:hover{ border-color:var(--slate); }
+
+section{ padding:76px 0; border-top:1px solid var(--line); }
+.sec-head{ display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:38px; flex-wrap:wrap; }
+.sec-head p{ color:var(--slate); font-size:14.5px; max-width:42ch; margin-top:6px; }
+
+/* register (focus areas) */
+.register{ border-top:1px solid var(--line); }
+.reg-row{ display:grid; grid-template-columns:180px 1fr 200px; gap:24px; padding:22px 4px; border-bottom:1px solid var(--line); align-items:center; }
+.reg-name{ display:flex; align-items:center; gap:10px; font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:15.5px; }
+.reg-name .status{ width:6px; height:6px; border-radius:50%; flex-shrink:0; }
+.reg-desc{ font-size:13.5px; color:var(--slate); }
+.reg-tag{ font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--slate-dim); justify-self:start; padding:5px 10px; border:1px solid var(--line); border-radius:4px; }
+
+/* writing list */
+.post-list{ display:flex; flex-direction:column; }
+.post-row{ display:grid; grid-template-columns:96px 1fr; gap:26px; padding:26px 0; border-bottom:1px solid var(--line); }
+.post-row .post-date{ font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--slate-dim); padding-top:3px; }
+.post-row h3{ font-size:18px; margin-bottom:8px; }
+.post-row p{ font-size:14px; color:var(--slate); margin:0 0 12px; max-width:64ch; }
+.tags{ display:flex; gap:8px; flex-wrap:wrap; }
+.tag{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--slate-dim); padding:3px 8px; border:1px solid var(--line); border-radius:4px; }
+.tag.hi{ color:var(--cyan); border-color:rgba(87,230,214,0.3); }
+
+/* community / credentials */
+.community-grid{ display:grid; grid-template-columns:1.2fr 1fr; gap:48px; align-items:start; }
+.invite{ border:1px dashed var(--line-strong); border-radius:10px; padding:28px; }
+.creds{ display:flex; flex-direction:column; }
+.cred-row{ display:flex; justify-content:space-between; align-items:center; padding:14px 0; border-bottom:1px solid var(--line); }
+.cred-row:last-child{ border-bottom:none; }
+.cred-year{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--slate-dim); }
+
+/* signal panel */
+.panel{ background:var(--ink-2); border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+.panel-head{ display:flex; align-items:center; justify-content:space-between; padding:14px 18px; border-bottom:1px solid var(--line); }
+.panel-title{ display:flex; align-items:center; gap:9px; }
+.panel-title .pulse{ width:7px; height:7px; border-radius:50%; background:var(--cyan); position:relative; }
+.panel-title .pulse::after{ content:''; position:absolute; inset:-4px; border-radius:50%; border:1px solid var(--cyan); opacity:0.5; animation:ping 2.4s ease-out infinite; }
+@keyframes ping{ 0%{transform:scale(0.6);opacity:0.6;} 100%{transform:scale(1.9);opacity:0;} }
+.panel-tabs{ display:flex; gap:2px; padding:10px 12px 0; }
+.ptab{ font-size:12.5px; padding:8px 12px; color:var(--slate-dim); border-radius:6px 6px 0 0; cursor:pointer; border-bottom:2px solid transparent; }
+.ptab.active{ color:var(--paper); border-bottom-color:var(--azure); background:var(--ink-3); }
+.pane{ display:none; }
+.pane.active{ display:block; }
+.feed-row{ display:flex; gap:12px; padding:11px 10px; border-radius:6px; }
+.feed-row:hover{ background:var(--ink-3); }
+.feed-dot{ width:6px; height:6px; border-radius:50%; margin-top:6px; flex-shrink:0; }
+.dot-blue{ background:var(--azure); }
+.dot-avanade{ background:var(--avanade); }
+.dot-cyan{ background:var(--cyan); }
+.dot-amber{ background:var(--amber); }
+.panel-foot{ border-top:1px solid var(--line); padding:11px 18px; display:flex; justify-content:space-between; align-items:center; }
+.cli{ font-size:12px; color:var(--cyan); }
+.cli .caret{ display:inline-block; width:6px; height:12px; background:var(--cyan); margin-left:2px; vertical-align:-2px; animation:blink 1s step-end infinite; }
+@keyframes blink{ 50%{opacity:0;} }
+
+@media (max-width:860px){
+  .reg-row{ grid-template-columns:1fr; gap:8px; }
+  .post-row{ grid-template-columns:1fr; gap:6px; }
+  .community-grid{ grid-template-columns:1fr; gap:32px; }
+}
+
+/* =========================================================
+   HERO — targets your existing index.html markup
+   (.hero-wrapper / .hero-card / .hero-btn / .expertise-tags)
+   ========================================================= */
+.full-bleed{
+  width:100vw;
+  position:relative;
+  left:50%;
+  right:50%;
+  margin-left:-50vw;
+  margin-right:-50vw;
+}
+.hero-wrapper{
+  margin-bottom:0 !important;
+}
+.hero-inner{
+  display:grid;
+  grid-template-columns:1.15fr 0.85fr;
+  gap:56px;
+  align-items:start;
+  max-width:1180px;
+  margin:0 auto;
+  padding:64px 32px 48px;
+}
+.hero-card{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:flex-start !important;
+  text-align:left !important;
+  background:none !important;
+  padding:0 !important;
+  gap:0 !important;
+  width:auto !important;
+  box-shadow:none !important;
+  border-radius:0 !important;
+}
+.hero-image img{
+  width:88px; height:88px; border-radius:50%;
+  object-fit:cover; margin-bottom:24px;
+  border:1px solid var(--line);
+}
+.hero-content h1{
+  font-size:36px !important; line-height:1.15; max-width:14ch;
+  text-align:left !important;
+}
+.hero-text{
+  color:var(--slate) !important; font-size:16px; max-width:48ch;
+  text-align:left !important;
+}
+.hero-buttons{ display:flex; gap:12px; margin:24px 0 20px; flex-wrap:wrap; }
+.hero-btn{
+  font-size:14px; font-weight:500; padding:12px 20px; border-radius:6px;
+  display:inline-flex; align-items:center;
+}
+.hero-btn-primary{ background:var(--azure-deep) !important; color:#fff !important; border:1px solid var(--azure-deep); }
+.hero-btn-primary:hover{ background:var(--azure) !important; }
+.hero-btn-secondary, .hero-btn-outline{
+  border:1px solid var(--line-strong) !important; color:var(--paper) !important; background:none !important;
+}
+.hero-btn-secondary:hover, .hero-btn-outline:hover{ border-color:var(--slate) !important; }
+.expertise-tags{ display:flex; gap:8px; flex-wrap:wrap; }
+.expertise-tags span{
+  font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--slate-dim);
+  padding:5px 10px; border:1px solid var(--line); border-radius:4px;
+}
+@media (max-width:860px){
+  .hero-inner{ grid-template-columns:1fr; gap:36px; padding:44px 20px 32px; }
+  .hero-content h1{ font-size:28px !important; max-width:none; }
+}
+
+/* =========================================================
+   MARKDOWN POST CONTENT
+   Targets Beautiful Jekyll's post wrapper. If your theme
+   version uses a different class, check _layouts/post.html
+   and rename ".post-content" below to match.
+   ========================================================= */
+.post-content{ font-size:16px; color:var(--paper); max-width:72ch; }
+.post-content h1{ font-size:28px; margin:2.2em 0 0.6em; }
+.post-content h2{ font-size:22px; margin:2em 0 0.6em; }
+.post-content h3{ font-size:18px; margin:1.8em 0 0.5em; }
+.post-content p{ color:var(--paper); margin:0 0 1.2em; }
+.post-content a{ color:var(--azure); text-decoration:underline; text-underline-offset:2px; }
+.post-content strong{ color:var(--paper); font-weight:600; }
+.post-content ul, .post-content ol{ margin:0 0 1.2em; padding-left:1.4em; color:var(--paper); }
+.post-content li{ margin-bottom:0.4em; }
+.post-content blockquote{
+  margin:1.6em 0; padding:0.2em 1.2em; border-left:3px solid var(--azure);
+  color:var(--slate); font-style:normal;
+}
+.post-content code{
+  font-family:'IBM Plex Mono',monospace; font-size:0.88em;
+  background:var(--ink-2); border:1px solid var(--line); border-radius:4px; padding:0.15em 0.4em;
+  color:var(--cyan);
+}
+.post-content pre{
+  background:var(--ink-2); border:1px solid var(--line); border-radius:8px;
+  padding:1.2em; overflow-x:auto; margin:1.6em 0;
+}
+.post-content pre code{ background:none; border:none; padding:0; color:var(--paper); }
+.post-content img{ border-radius:8px; margin:1.6em 0; max-width:100%; }
+.post-content table{ width:100%; border-collapse:collapse; margin:1.6em 0; font-size:14px; }
+.post-content th, .post-content td{ border:1px solid var(--line); padding:8px 12px; text-align:left; }
+.post-content th{ color:var(--slate); font-weight:500; }
+.post-content hr{ border:none; border-top:1px solid var(--line); margin:2.4em 0; }

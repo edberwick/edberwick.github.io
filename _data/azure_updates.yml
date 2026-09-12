@@ -1,0 +1,12 @@
+- text: "Azure Firewall Premium — new IDPS signature set GA"
+  meta: "Networking · 2 days ago"
+  dot: blue
+- text: "Cost Management: FinOps FOCUS 1.1 export now default"
+  meta: "FinOps · 4 days ago"
+  dot: amber
+- text: "Landing Zone accelerator — updated policy baseline"
+  meta: "Platform · 1 week ago"
+  dot: blue
+- text: "Azure Verified Modules — new Terraform release"
+  meta: "IaC · 1 week ago"
+  dot: cyan

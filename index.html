@@ -1,60 +1,142 @@
 ---
-layout: home
-title: Ed Berwick
-subtitle: Azure Architect • FinOps Advocate • Technology Leader
+layout: home-redesign
 ---
-<div class="hero-wrapper">
+<div class="hero-wrapper full-bleed">
+  <div class="hero-inner">
 
-    <div class="hero-card">
+  <div class="hero-card">
 
     <div class="hero-image">
-        <img src="/assets/img/headshots/ed-berwick-dark.png"
-            alt="Ed Berwick">
+      <img src="/assets/img/headshots/ed-berwick-dark.png"
+        alt="Ed Berwick">
     </div>
 
     <div class="hero-content">
 
-        <h1>
-        Practical Azure, FinOps and Cloud Transformation
-        </h1>
+      <h1>
+      Practical Azure, FinOps and Cloud Transformation
+      </h1>
 
-        <p class="hero-text">
-        Sharing lessons learned from more than twenty years of designing, building and operating enterprise technology.
-        </p>
+      <p class="hero-text">
+      Sharing lessons learned from more than twenty years of designing, building and operating enterprise technology.
+      </p>
 
-        <p class="hero-text">
-        Helping organisations modernise securely, operate efficiently and maximise the value of their cloud investments.
-        </p>
+      <p class="hero-text">
+      Helping organisations modernise securely, operate efficiently and maximise the value of their cloud investments.
+      </p>
 
-    <div class="hero-buttons">
+      <div class="hero-buttons">
 
-    <a href="{{ '/start-here/' | relative_url }}" class="hero-btn hero-btn-primary">
-        Start Here
-    </a>
+        <a href="{{ '/start-here/' | relative_url }}" class="hero-btn hero-btn-primary">
+          Start Here
+        </a>
 
-    <a href="{{ '/aboutme/' | relative_url }}" class="hero-btn hero-btn-secondary">
-        About Me
-    </a>
+        <a href="{{ '/aboutme/' | relative_url }}" class="hero-btn hero-btn-secondary">
+          About Me
+        </a>
 
-    <a href="{{ '/photography/' | relative_url }}" class="hero-btn hero-btn-outline" >
-        Photography
-    </a>
+        <a href="{{ '/photography/' | relative_url }}" class="hero-btn hero-btn-outline">
+          Photography
+        </a>
 
-    </div>
+      </div>
 
-        <div class="expertise-tags">
+      <div class="expertise-tags">
 
         <span>Azure</span>
         <span>FinOps</span>
         <span>Platform Engineering</span>
-            <span>Landing Zones</span>
-            <span>Managed Services</span>
+        <span>Landing Zones</span>
+        <span>Managed Services</span>
         <span>Cloud Adoption</span>
         <span>Regulated Industries</span>
 
-        </div>
+      </div>
 
     </div>
 
-    </div>
+  </div>
+
+{% include signal-panel.html %}
+
+  </div>
 </div>
+
+<section id="focus" class="full-bleed">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <h2 style="font-size:26px;">Where I focus</h2>
+        <p>Five areas that show up in almost every engagement, in some order.</p>
+      </div>
+    </div>
+    <div class="register">
+      {% for item in site.data.focus %}
+      <div class="reg-row">
+        <div class="reg-name"><span class="status dot-{{ item.dot }}"></span>{{ item.name }}</div>
+        <div class="reg-desc">{{ item.desc }}</div>
+        <div class="reg-tag">{{ item.tag }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="writing" class="full-bleed">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <h2 style="font-size:26px;">Recent writing</h2>
+        <p>Technical posts, opinions and the occasional rant. Photography lives on its own page.</p>
+      </div>
+      <a href="{{ '/tags' | relative_url }}" style="font-size:13.5px;color:var(--azure);">View all posts →</a>
+    </div>
+
+    <div class="post-list">
+      {% assign shown = 0 %}
+      {% for post in site.posts %}
+        {% unless post.categories contains 'photography' %}
+          {% if shown < 5 %}
+          <div class="post-row">
+            <div class="post-date">{{ post.date | date: "%d %b" }}<br>{{ post.date | date: "%Y" }}</div>
+            <div>
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+              <div class="tags">
+                {% for tag in post.tags limit:3 %}<span class="tag hi">{{ tag }}</span>{% endfor %}
+              </div>
+            </div>
+          </div>
+          {% assign shown = shown | plus: 1 %}
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="community" class="full-bleed">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <h2 style="font-size:26px;">Speaking &amp; community</h2>
+        <p>Working toward a Microsoft MVP nomination — one talk, one answered question at a time.</p>
+      </div>
+    </div>
+    <div class="community-grid">
+      <div class="invite">
+        <h3 style="font-size:17px;margin-bottom:8px;">First session in the works</h3>
+        <p style="font-size:14px;color:var(--slate);margin:0 0 18px;max-width:48ch;">No talks listed yet — this is where user group sessions, conference slots and community contributions will land as they're booked.</p>
+        <a href="mailto:{{ site.email }}" class="btn btn-ghost">Invite me to speak</a>
+      </div>
+      <div class="creds">
+        {% for cred in site.data.credentials %}
+        <div class="cred-row">
+          <span style="font-size:14px;">{{ cred.name }}</span>
+          <span class="cred-year">{{ cred.issuer }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

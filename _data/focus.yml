@@ -1,0 +1,20 @@
+- name: "Azure & cloud transformation"
+  desc: "Designing and evolving cloud platforms that balance agility, governance, security and cost."
+  tag: "topic:azure"
+  dot: blue
+- name: "FinOps"
+  desc: "Maximising the value of cloud investment, not just reducing the bill."
+  tag: "topic:finops"
+  dot: avanade
+- name: "Platform engineering"
+  desc: "Repeatable, scalable platforms through automation and infrastructure as code."
+  tag: "topic:platform"
+  dot: amber
+- name: "Managed services"
+  desc: "Lessons from delivering and operating enterprise-scale environments at real scale."
+  tag: "topic:operations"
+  dot: blue
+- name: "Technology leadership"
+  desc: "Building teams, setting technical strategy, and making the case for the boring, correct decision."
+  tag: "topic:leadership"
+  dot: avanade
