@@ -124,6 +124,45 @@ section{ padding:76px 0; border-top:1px solid var(--line); }
   .community-grid{ grid-template-columns:1fr; gap:32px; }
 }
 
+.avatar-img-border{ aspect-ratio:1/1; }
+.avatar-img{ aspect-ratio:1/1; object-fit:cover; }
+
+/* =========================================================
+   TAGS — the tag index page (tags.html) and each post's
+   own tag list (rendered by _layouts/post.html / photo.html)
+   ========================================================= */
+.blog-tags{ margin-top:24px; font-size:13px; color:var(--slate-dim); }
+.blog-tags span{ margin-right:8px; }
+.blog-tags a{
+  font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--slate-dim);
+  padding:4px 9px; border:1px solid var(--line); border-radius:4px;
+  margin:0 6px 6px 0; display:inline-block;
+}
+.blog-tags a:hover{ color:var(--cyan); border-color:rgba(87,230,214,0.3); }
+
+.tag-btn{
+  font-family:'IBM Plex Mono',monospace !important; font-size:13px !important;
+  background:var(--ink-2) !important; border:1px solid var(--line) !important; color:var(--paper) !important;
+  padding:8px 14px !important; border-radius:6px !important; margin:0 8px 10px 0 !important;
+  box-shadow:none !important;
+}
+.tag-btn:hover{ border-color:var(--azure) !important; color:var(--azure) !important; }
+.tag-btn i{ color:var(--azure); }
+
+#full-tags-list h2.linked-section{
+  font-size:20px; margin:48px 0 12px; padding-top:24px; border-top:1px solid var(--line);
+}
+#full-tags-list h2.linked-section:first-of-type{ border-top:none; padding-top:0; margin-top:24px; }
+#full-tags-list h2.linked-section i{ color:var(--azure); font-size:16px; }
+
+.tag-entry{
+  display:flex; justify-content:space-between; align-items:center; gap:16px;
+  padding:12px 0; border-bottom:1px solid var(--line);
+}
+.tag-entry a{ color:var(--paper); font-size:14.5px; }
+.tag-entry a:hover{ color:var(--azure); }
+.entry-date{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--slate-dim); white-space:nowrap; }
+
 /* =========================================================
    HERO — targets your existing index.html markup
    (.hero-wrapper / .hero-card / .hero-btn / .expertise-tags)
@@ -166,11 +205,12 @@ section{ padding:76px 0; border-top:1px solid var(--line); }
   border:1px solid var(--line);
 }
 .hero-content h1{
-  font-size:36px !important; line-height:1.15; max-width:14ch;
+  font-size:36px !important; line-height:1.15; max-width:none; width:100%;
   text-align:left !important;
 }
+.hero-content{ width:100%; }
 .hero-text{
-  color:var(--slate) !important; font-size:16px; max-width:48ch;
+  color:var(--slate) !important; font-size:16px; max-width:none; width:100%;
   text-align:left !important;
 }
 .hero-buttons{ display:flex; gap:12px; margin:24px 0 20px; flex-wrap:wrap; }
@@ -189,6 +229,14 @@ section{ padding:76px 0; border-top:1px solid var(--line); }
   font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--slate-dim);
   padding:5px 10px; border:1px solid var(--line); border-radius:4px;
 }
+.hero-meta{
+  display:flex; gap:32px; margin-top:36px; padding-top:28px;
+  border-top:1px solid var(--line); flex-wrap:wrap; width:100%;
+}
+.hero-meta-num{
+  font-family:'Space Grotesk',sans-serif; font-size:22px; font-weight:600; color:var(--paper);
+}
+.hero-meta-lbl{ font-size:12.5px; color:var(--slate-dim); margin-top:2px; max-width:16ch; }
 @media (max-width:860px){
   .hero-inner{ grid-template-columns:1fr; gap:36px; padding:44px 20px 32px; }
   .hero-content h1{ font-size:28px !important; max-width:none; }
