@@ -1,0 +1,44 @@
+name: Post idea
+description: Capture a blog post idea for BezSez before it slips away
+title: "[Idea]: "
+labels: ["post-idea"]
+body:
+  - type: dropdown
+    id: pillar
+    attributes:
+      label: Pillar
+      description: Which theme does this fit best?
+      options:
+        - Azure architecture
+        - FinOps
+        - Cloud adoption
+        - Platform & operations
+        - Technology leadership
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: One or two sentences on what the post would actually say.
+      placeholder: e.g. Why cost anomaly alerts are useless without an owner attached
+    validations:
+      required: true
+
+  - type: textarea
+    id: trigger
+    attributes:
+      label: What prompted this?
+      description: Optional - the incident, conversation, or update that sparked it. Useful context for when you come back to write it.
+    validations:
+      required: false
+
+  - type: input
+    id: links
+    attributes:
+      label: Related links
+      description: Optional - a doc, an Azure Updates item, a GitHub Discussion, anything worth referencing later.
+    validations:
+      required: false
