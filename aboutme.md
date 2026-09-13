@@ -18,7 +18,7 @@ People, process, culture and operating models are usually the real challenge.
 
 That's a recurring theme you'll find throughout this site.
 
-## Why BezSez?
+## Why BEZSEZ_?
 
 After years of working in consulting and architecture roles, I realised many of the most valuable lessons never make it into marketing brochures, vendor documentation or conference presentations.
 

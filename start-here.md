@@ -5,7 +5,7 @@ subtitle: A practical introduction to Azure, FinOps and cloud transformation
 permalink: /start-here/
 ---
 
-Welcome to **BezSez**. I've spent more than twenty years designing, building and operating enterprise technology — and most of what's worth knowing sits between the architecture diagrams: operating models, ownership, governance, cost and the practical constraints of delivering change.
+Welcome to **BEZSEZ_**. I've spent more than twenty years designing, building and operating enterprise technology — and most of what's worth knowing sits between the architecture diagrams: operating models, ownership, governance, cost and the practical constraints of delivering change.
 
 If this is your first visit, these three articles are the best introduction to what this site is about.
 
@@ -51,7 +51,7 @@ The common thread is practical delivery: what works, what doesn't, and what I'd 
 <div class="community-grid" style="margin-top:48px;">
   <div class="invite">
     <h3 style="font-size:17px;margin-bottom:8px;">Want the full story?</h3>
-    <p style="font-size:14px;color:var(--slate);margin:0 0 18px;max-width:48ch;">Background, career, and why BezSez exists in the first place.</p>
+    <p style="font-size:14px;color:var(--slate);margin:0 0 18px;max-width:48ch;">Background, career, and why BEZSEZ_ exists in the first place.</p>
     <a href="{{ '/aboutme/' | relative_url }}" class="btn btn-ghost">About Me</a>
   </div>
   <div class="invite">
@@ -73,4 +73,4 @@ That's a good thing.
 
 The best technical communities are built by people sharing what they've learned, challenging assumptions and helping one another improve.
 
-If something here helps you, or starts a useful conversation, BezSez is doing its job.
+If something here helps you, or starts a useful conversation, BEZSEZ_ is doing its job.
