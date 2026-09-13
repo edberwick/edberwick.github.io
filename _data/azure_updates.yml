@@ -1,14 +1,14 @@
 - text: 'Retirement: Azure Linux with OS Guard in Azure Kubernetes Service'
-  meta: Retirements · Today
+  meta: Retirements · Yesterday
   dot: blue
 - text: 'Public Preview: Agentless migration of on-premises SMB file shares to Azure
     Files (SMB)'
-  meta: Migration · Today
+  meta: Migration · Yesterday
   dot: blue
 - text: 'Generally Available: TLS/SSL certificate and end-to-end TLS encryption support
     for Azure Functions Flex Consumption'
-  meta: Compute · Yesterday
+  meta: Compute · 2 days ago
   dot: avanade
 - text: 'Generally Available: Azure Copilot Troubleshooting Agent'
-  meta: Management and governance · Yesterday
+  meta: Management and governance · 2 days ago
   dot: blue
