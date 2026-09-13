@@ -1,67 +1,41 @@
 ---
 layout: page
 title: Start Here
-subtitle: A practical introduction to Azure, FinOps, cloud transformation and BezSez
+subtitle: A practical introduction to Azure, FinOps and cloud transformation
 permalink: /start-here/
 ---
 
-Welcome to **BezSez**.
+Welcome to **BezSez**. I've spent more than twenty years designing, building and operating enterprise technology — and most of what's worth knowing sits between the architecture diagrams: operating models, ownership, governance, cost and the practical constraints of delivering change.
 
-I have spent more than twenty years designing, building and operating enterprise technology, from large-scale datacentres and infrastructure platforms through to Azure, managed services and cloud transformation.
+If this is your first visit, these three articles are the best introduction to what this site is about.
 
-Over that time, I have learned that technology is rarely the hardest part.
-
-The difficult problems usually sit between the architecture diagrams: operating models, ownership, governance, cost, organisational culture and the practical constraints of delivering change in complex environments.
-
-BezSez is where I share those lessons.
-
-Some articles are technical. Others explore cloud strategy, FinOps, operating models and technology leadership. They are all written from practical experience rather than theory.
-
-If this is your first visit, the articles below are a good place to start.
-
----
-
-## FinOps and cloud value
-
-### We're All Getting FinOps Wrong
-
-FinOps is often presented as a way to reduce the cloud bill. That is part of the story, but it misses the bigger opportunity.
-
-This article explores why FinOps should be about maximising the value of technology investment, creating accountability and helping organisations make better decisions.
-
-[Read **We're All Getting FinOps Wrong**]({/2025-02-07-We_are_all_getting_FinOps_Wrong/' | relative_url }}
-
----
-
-## Cloud adoption and transformation
-
-### Going on a Cloud Journey? Make Sure Everyone Is on the Bus
-
-Cloud transformation is not simply a technology migration.
-
-Architecture, security, operations, finance, governance and business leadership all need to understand the destination and their role in reaching it.
-
-This article looks at why successful cloud adoption depends on bringing the whole organisation on the journey.
-
-[Read **Going on a Cloud Journey?**]({/2025-02-08-Going_on_a_cloud_journey/' | relative_url }}
-
----
-
-## Azure architecture
-
-### A Matter of ROUTinE
-
-Sometimes following an established architecture pattern can introduce an unexpected problem.
-
-This article examines Azure hub-and-spoke networking, asymmetric routing and why good practice still needs to be understood rather than followed blindly.
-
-[Read **A Matter ofatter_of_ROUTine**]({/2025-02-14-A_matter_of_ROUTine/' | relative_url }}
-
----
+<div class="post-list">
+  <div class="post-row">
+    <div class="post-date">07 Feb<br>2025</div>
+    <div>
+      <h3><a href="{% post_url 2025-02-07-We_are_all_getting_FinOps_Wrong %}">We're All Getting FinOps Wrong</a></h3>
+      <p>FinOps is often presented as a way to reduce the cloud bill. That's part of the story, but it misses the bigger opportunity: maximising the value of technology investment and creating real accountability.</p>
+    </div>
+  </div>
+  <div class="post-row">
+    <div class="post-date">08 Feb<br>2025</div>
+    <div>
+      <h3><a href="{% post_url 2025-02-08-Going_on_a_cloud_journey %}">Going on a Cloud Journey? Make Sure Everyone Is on the Bus</a></h3>
+      <p>Cloud transformation isn't simply a technology migration. Architecture, security, operations, finance and business leadership all need to understand the destination and their role in reaching it.</p>
+    </div>
+  </div>
+  <div class="post-row">
+    <div class="post-date">14 Feb<br>2025</div>
+    <div>
+      <h3><a href="{% post_url 2025-02-14-A_matter_of_ROUTine %}">A Matter of ROUTinE</a></h3>
+      <p>Sometimes following an established architecture pattern introduces an unexpected problem. A look at Azure hub-and-spoke networking, asymmetric routing, and why good practice still needs to be understood rather than followed blindly.</p>
+    </div>
+  </div>
+</div>
 
 ## What I write about
 
-You will find articles covering several connected areas:
+You'll find articles covering several connected areas:
 
 - **Azure architecture**, including landing zones, networking and platform design
 - **FinOps**, cloud economics and technology value
@@ -72,33 +46,20 @@ You will find articles covering several connected areas:
 - **Technology leadership** and lessons from consulting
 - **Regulated environments**, where security, governance and operational constraints shape the solution
 
-The common thread is practical delivery: what works, what does not and what I would do differently next time.
+The common thread is practical delivery: what works, what doesn't, and what I'd do differently next time.
 
-
-
-## About me
-
-I am a Technical and Solution Architect with more than twenty years of technology delivery experience.
-
-My background includes designing, building and operating enterprise infrastructure platforms, large-scale Active Directory environments, modern workplace technologies, Azure platforms and managed services.
-
-Today, much of my work focuses on helping organisations modernise securely, improve their operational capabilities and make better use of their technology investments.
-
----
-
-## Beyond technology
-
-Technology is a significant part of my life, but it is not the whole story.
-
-Away from architecture diagrams and Azure discussions, I enjoy photography, particularly motorsport and rugby. Some of my favourite photographs come from the Le Mans 24 Hours and grassroots sporting events.
-
-Photography gives me a different way to think about technology, engineering, movement and the importance of capturing the right moment.
-
-<!--
-Enable this link after the Photography landing page has been created.
-
-[View my photography relative_url }}
--->
+<div class="community-grid" style="margin-top:48px;">
+  <div class="invite">
+    <h3 style="font-size:17px;margin-bottom:8px;">Want the full story?</h3>
+    <p style="font-size:14px;color:var(--slate);margin:0 0 18px;max-width:48ch;">Background, career, and why BezSez exists in the first place.</p>
+    <a href="{{ '/aboutme/' | relative_url }}" class="btn btn-ghost">About Me</a>
+  </div>
+  <div class="invite">
+    <h3 style="font-size:17px;margin-bottom:8px;">Prefer pictures to prose?</h3>
+    <p style="font-size:14px;color:var(--slate);margin:0 0 18px;max-width:48ch;">Motorsport, rugby, and whatever else was worth pointing a camera at.</p>
+    <a href="{{ '/photography/' | relative_url }}" class="btn btn-ghost">Photography</a>
+  </div>
+</div>
 
 ---
 
@@ -106,10 +67,10 @@ Enable this link after the Photography landing page has been created.
 
 Everything published here represents my own experience and perspective.
 
-You may have solved the same problem differently. You may disagree with one of my conclusions. You may have encountered a constraint I have not considered.
+You may have solved the same problem differently. You may disagree with one of my conclusions. You may have encountered a constraint I haven't considered.
 
-That is a good thing.
+That's a good thing.
 
-The best technical communities are built by people sharing what they have learned, challenging assumptions and helping one another improve.
+The best technical communities are built by people sharing what they've learned, challenging assumptions and helping one another improve.
 
 If something here helps you, or starts a useful conversation, BezSez is doing its job.
