@@ -1,14 +1,12 @@
-- text: 'Retirement: Azure Linux with OS Guard in Azure Kubernetes Service'
-  meta: Retirements · Yesterday
+- text: 'Retirement Update: SAP container images removed October 14, 2026'
+  meta: Retirements · Today
   dot: blue
-- text: 'Public Preview: Agentless migration of on-premises SMB file shares to Azure
-    Files (SMB)'
-  meta: Migration · Yesterday
+- text: 'Public Preview: Azure SQL updates for mid-September 2026'
+  meta: Databases · Today
   dot: blue
-- text: 'Generally Available: TLS/SSL certificate and end-to-end TLS encryption support
-    for Azure Functions Flex Consumption'
-  meta: Compute · 2 days ago
-  dot: avanade
-- text: 'Generally Available: Azure Copilot Troubleshooting Agent'
-  meta: Management and governance · 2 days ago
+- text: 'Public Preview: Azure Red Hat OpenShift with hosted control planes'
+  meta: Containers · Today
+  dot: blue
+- text: 'Public Preview: PostgreSQL skills and MCP plugin for Azure Database for PostgreSQL'
+  meta: Databases · Today
   dot: blue
