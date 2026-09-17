@@ -26,12 +26,12 @@ layout: home-redesign
           Start Here
         </a>
 
-        <a href="{{ '/aboutme/' | relative_url }}" class="hero-btn hero-btn-secondary">
-          About Me
-        </a>
-
         <a href="{{ '/writing/' | relative_url }}" class="hero-btn hero-btn-secondary">
           Writing
+        </a>
+
+        <a href="{{ '/aboutme/' | relative_url }}" class="hero-btn hero-btn-secondary">
+          About Me
         </a>
 
         <a href="{{ '/photography/' | relative_url }}" class="hero-btn hero-btn-outline">
@@ -40,32 +40,36 @@ layout: home-redesign
 
       </div>
 
-      <div class="expertise-tags">
-
-        <span>Azure</span>
-        <span>FinOps</span>
-        <span>Platform Engineering</span>
-        <span>Landing Zones</span>
-        <span>Managed Services</span>
-        <span>Cloud Adoption</span>
-        <span>Regulated Industries</span>
-
-      </div>
-
-      <div class="hero-meta">
-        {% for stat in site.data.hero_stats %}
-        <div>
-          <div class="hero-meta-num">{{ stat.number }}</div>
-          <div class="hero-meta-lbl">{{ stat.label }}</div>
-        </div>
-        {% endfor %}
-      </div>
-
     </div>
 
   </div>
 
 {% include signal-panel.html %}
+
+  </div>
+
+  <div class="wrap hero-extras">
+
+    <div class="expertise-tags">
+
+      <span>Azure</span>
+      <span>FinOps</span>
+      <span>Platform Engineering</span>
+      <span>Landing Zones</span>
+      <span>Managed Services</span>
+      <span>Cloud Adoption</span>
+      <span>Regulated Industries</span>
+
+    </div>
+
+    <div class="hero-meta">
+      {% for stat in site.data.hero_stats %}
+      <div>
+        <div class="hero-meta-num">{{ stat.number }}</div>
+        <div class="hero-meta-lbl">{{ stat.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
 
   </div>
 </div>
