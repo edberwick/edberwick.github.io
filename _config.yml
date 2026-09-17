@@ -20,8 +20,8 @@ author: Ed Berwick
 ###############################################
 
 navbar-links:
-  Writing: "writing"
   About Me: "aboutme"
+  Writing: "writing"
   Photography: "photography"
   Topics: "tags"
 
