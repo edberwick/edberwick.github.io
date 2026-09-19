@@ -1,12 +1,13 @@
-- text: 'Public Preview: Azure Payments HSM v2'
-  meta: Security · Today
-  dot: avanade
-- text: 'Generally Available: High-scale mesh in Azure Virtual Network Manager'
-  meta: Networking · Today
+- text: 'Public Preview: Foundry Routines in Foundry Agent Service'
+  meta: AI + machine learning · Today
+  dot: cyan
+- text: 'Public Preview: Mdsv4 and Msv4 Series Virtual Machines for SAP'
+  meta: Compute · Today
   dot: blue
-- text: 'Retirement Update: SAP container images removed October 14, 2026'
-  meta: Retirements · Yesterday
-  dot: blue
-- text: 'Public Preview: Azure SQL updates for mid-September 2026'
-  meta: Databases · Yesterday
-  dot: blue
+- text: 'Generally Available: Enable and disable controls for Microsoft Foundry agents
+    in Agent 365'
+  meta: AI + machine learning · Today
+  dot: cyan
+- text: 'Public Preview: Network egress controls for hosted agents in Microsoft Foundry'
+  meta: AI + machine learning · Today
+  dot: cyan
