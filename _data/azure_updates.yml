@@ -1,13 +1,13 @@
-- text: 'Public Preview: Foundry Routines in Foundry Agent Service'
-  meta: AI + machine learning · 2 days ago
-  dot: cyan
-- text: 'Public Preview: Mdsv4 and Msv4 Series Virtual Machines for SAP'
-  meta: Compute · 2 days ago
+- text: 'Generally Available: Azure Sphere OS version 26.09 is now available'
+  meta: Internet of Things · Today
   dot: blue
-- text: 'Generally Available: Enable and disable controls for Microsoft Foundry agents
-    in Agent 365'
-  meta: AI + machine learning · 2 days ago
-  dot: cyan
-- text: 'Public Preview: Network egress controls for hosted agents in Microsoft Foundry'
-  meta: AI + machine learning · 2 days ago
+- text: 'Public Preview: Introducing a Guided Copilot Experience for Building Azure
+    Apps in VS Code'
+  meta: Developer tools · Today
+  dot: blue
+- text: 'Generally Available: Azure Functions support for PowerShell 7.6'
+  meta: Compute · Today
+  dot: avanade
+- text: 'Public Preview: Foundry Routines in Foundry Agent Service'
+  meta: AI + machine learning · 3 days ago
   dot: cyan
