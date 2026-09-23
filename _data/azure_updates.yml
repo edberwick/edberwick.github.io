@@ -1,13 +1,13 @@
+- text: 'Retirement: Support for Node.js 22 ends on April 30, 2027'
+  meta: Compute · Today
+  dot: avanade
+- text: 'Public Preview: Flex Nodes for AKS'
+  meta: Compute · Today
+  dot: blue
 - text: 'Generally Available: Azure Sphere OS version 26.09 is now available'
-  meta: Internet of Things · Today
+  meta: Internet of Things · Yesterday
   dot: blue
 - text: 'Public Preview: Introducing a Guided Copilot Experience for Building Azure
     Apps in VS Code'
-  meta: Developer tools · Today
+  meta: Developer tools · Yesterday
   dot: blue
-- text: 'Generally Available: Azure Functions support for PowerShell 7.6'
-  meta: Compute · Today
-  dot: avanade
-- text: 'Public Preview: Foundry Routines in Foundry Agent Service'
-  meta: AI + machine learning · 3 days ago
-  dot: cyan
