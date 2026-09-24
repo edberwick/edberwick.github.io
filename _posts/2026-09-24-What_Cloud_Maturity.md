@@ -1,8 +1,8 @@
 ---
 layout: post
-title: What Cloud Maturity Actually Looks Like 18 Months Post-Migration
-subtitle: Hint: It's not necessarily what you think
-tags: [azure, firewall, asymmetric, networking, routing ]
+title: Cloud Maturity, 18 Months In
+subtitle: What cloud maturity genuinely looks like a year and a half after migration, versus what the vendor promised at the start
+tags: [cloud-adoption, migration, operating-model]
 author: Ed Berwick
 ---
 At the start of most cloud migrations, the story is remarkably consistent.
