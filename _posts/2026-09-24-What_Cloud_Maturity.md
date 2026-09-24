@@ -1,5 +1,10 @@
-# What Cloud Maturity Actually Looks Like 18 Months Post-Migration
-
+---
+layout: post
+title: What Cloud Maturity Actually Looks Like 18 Months Post-Migration
+subtitle: Hint: It's not necessarily what you think
+tags: [azure, firewall, asymmetric, networking, routing ]
+author: Ed Berwick
+---
 At the start of most cloud migrations, the story is remarkably consistent.
 
 The business case promises greater agility. Vendors showcase automated operations, self-healing infrastructure, lower costs, stronger security and near-limitless scalability. Executive presentations feature operating models that appear clean, efficient and largely frictionless.
