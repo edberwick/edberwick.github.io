@@ -1,13 +1,13 @@
-- text: 'Retirement: Support for Node.js 22 ends on April 30, 2027'
+- text: 'Generally Available: Azure Container Apps Sandboxes'
+  meta: Containers · Jun 2026
+  dot: blue
+- text: 'Generally Available: Azure Container Apps Express'
+  meta: Containers · May 2026
+  dot: blue
+- text: 'Retirement: Support for PowerShell 7.4 ends on November 10, 2026'
   meta: Compute · Today
   dot: avanade
-- text: 'Public Preview: Flex Nodes for AKS'
+- text: 'Retirement: Support for .NET 8 and .NET 9 ends on November 10, 2026—upgrade
+    your apps to .NET 10'
   meta: Compute · Today
-  dot: blue
-- text: 'Generally Available: Azure Sphere OS version 26.09 is now available'
-  meta: Internet of Things · Yesterday
-  dot: blue
-- text: 'Public Preview: Introducing a Guided Copilot Experience for Building Azure
-    Apps in VS Code'
-  meta: Developer tools · Yesterday
-  dot: blue
+  dot: avanade
