@@ -1,13 +1,13 @@
+- text: 'Retirement: Azure Communication Services (ACS) standalone services will be
+    retired on September 30, 2028'
+  meta: Mobile · Today
+  dot: blue
+- text: 'Generally Available: Instant Access for VM restore points'
+  meta: Storage · Today
+  dot: blue
 - text: 'Generally Available: Azure Container Apps Sandboxes'
   meta: Containers · Jun 2026
   dot: blue
 - text: 'Generally Available: Azure Container Apps Express'
   meta: Containers · May 2026
   dot: blue
-- text: 'Retirement: Support for PowerShell 7.4 ends on November 10, 2026'
-  meta: Compute · Today
-  dot: avanade
-- text: 'Retirement: Support for .NET 8 and .NET 9 ends on November 10, 2026—upgrade
-    your apps to .NET 10'
-  meta: Compute · Today
-  dot: avanade
