@@ -1,13 +1,13 @@
+- text: 'Public Preview: Azure HorizonDB supports PostgreSQL 18'
+  meta: Databases · Today
+  dot: blue
 - text: 'Retirement: Azure Communication Services (ACS) standalone services will be
     retired on September 30, 2028'
-  meta: Mobile · Today
+  meta: Mobile · Yesterday
   dot: blue
 - text: 'Generally Available: Instant Access for VM restore points'
-  meta: Storage · Today
+  meta: Storage · Yesterday
   dot: blue
 - text: 'Generally Available: Azure Container Apps Sandboxes'
   meta: Containers · Jun 2026
-  dot: blue
-- text: 'Generally Available: Azure Container Apps Express'
-  meta: Containers · May 2026
   dot: blue
