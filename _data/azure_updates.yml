@@ -1,13 +1,12 @@
-- text: 'Generally Available: Vector search and vector indexes in Azure SQL'
-  meta: Databases · Today
+- text: 'Retirement: Azure Functions v1 hosting model on Azure Container Apps'
+  meta: Containers · Today
   dot: blue
-- text: 'Public Preview: Azure SQL Dev Hub'
-  meta: Databases · Today
+- text: 'Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series'
+  meta: Compute · Today
+  dot: amber
+- text: 'Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets'
+  meta: Compute · Today
   dot: blue
-- text: 'Generally Available: Azure SQL Managed Instance updates for late-September
-    2026'
-  meta: Databases · Today
-  dot: blue
-- text: 'Generally Available: Luxembourg - Azure Extended Zones'
-  meta: Regions & Datacenters · Today
+- text: 'Generally Available: Azure Arc-enabled SQL Server in Germany West Central'
+  meta: Launched · Today
   dot: blue
