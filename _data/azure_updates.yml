@@ -1,12 +1,13 @@
-- text: 'Retirement: Azure Functions v1 hosting model on Azure Container Apps'
-  meta: Containers · Today
-  dot: blue
-- text: 'Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series'
-  meta: Compute · Today
-  dot: amber
-- text: 'Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets'
+- text: 'Public Preview: SQL performance monitoring for SQL Server on Azure Virtual
+    Machines'
   meta: Compute · Today
   dot: blue
-- text: 'Generally Available: Azure Arc-enabled SQL Server in Germany West Central'
-  meta: Launched · Today
+- text: 'Retirement: NVv3-series Azure Virtual Machines'
+  meta: Compute · Today
+  dot: blue
+- text: 'Retirement: NVv4-series Azure Virtual Machines'
+  meta: Compute · Today
+  dot: blue
+- text: 'Public Preview: Ubuntu 26.04 support in AKS'
+  meta: Compute · Today
   dot: blue
