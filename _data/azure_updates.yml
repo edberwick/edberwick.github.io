@@ -1,13 +1,14 @@
+- text: 'Public Preview: Reader Endpoint for Azure Database for MySQL'
+  meta: Databases · 4 weeks ago
+  dot: blue
+- text: 'Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired
+    on October 31, 2029'
+  meta: Compute · Today
+  dot: blue
 - text: 'Public Preview: SQL performance monitoring for SQL Server on Azure Virtual
     Machines'
-  meta: Compute · Today
+  meta: Compute · Yesterday
   dot: blue
 - text: 'Retirement: NVv3-series Azure Virtual Machines'
-  meta: Compute · Today
-  dot: blue
-- text: 'Retirement: NVv4-series Azure Virtual Machines'
-  meta: Compute · Today
-  dot: blue
-- text: 'Public Preview: Ubuntu 26.04 support in AKS'
-  meta: Compute · Today
+  meta: Compute · Yesterday
   dot: blue
