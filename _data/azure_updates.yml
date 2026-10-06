@@ -1,15 +1,13 @@
-- text: 'Public Preview:  Major version upgrades (MVU) for Azure Database for PostgreSQL
-    elastic clusters'
-  meta: Databases · 2 days ago
+- text: 'Public Preview: Azure HorizonDB expands to additional regions'
+  meta: Databases · Today
   dot: blue
-- text: 'Public Preview: Reader Endpoint for Azure Database for MySQL'
-  meta: Databases · 4 weeks ago
+- text: 'Generally Available: SQL Server on Azure Virtual Machines in Azure Bleu'
+  meta: Compute · Today
   dot: blue
-- text: 'Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired
-    on October 31, 2029'
-  meta: Compute · 3 days ago
+- text: 'Announcing: Table discovery in OneLake Catalog search'
+  meta: Analytics · Today
   dot: blue
-- text: 'Public Preview: SQL performance monitoring for SQL Server on Azure Virtual
-    Machines'
-  meta: Compute · 4 days ago
+- text: 'Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster
+    (v2)'
+  meta: Management and governance · Today
   dot: blue
