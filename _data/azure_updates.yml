@@ -1,13 +1,12 @@
-- text: 'Public Preview: Azure HorizonDB expands to additional regions'
-  meta: Databases · Today
-  dot: blue
-- text: 'Generally Available: SQL Server on Azure Virtual Machines in Azure Bleu'
+- text: 'Retirement: Pod name dimension in AKS pod platform metrics'
   meta: Compute · Today
   dot: blue
-- text: 'Announcing: Table discovery in OneLake Catalog search'
-  meta: Analytics · Today
+- text: 'Retirement: Azure App Service on Azure Stack Hub'
+  meta: Compute · Today
   dot: blue
-- text: 'Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster
-    (v2)'
-  meta: Management and governance · Today
+- text: 'Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027'
+  meta: Compute · Today
+  dot: blue
+- text: 'Retirement: Always Encrypted with Intel SGX Enclaves'
+  meta: Databases · Today
   dot: blue
