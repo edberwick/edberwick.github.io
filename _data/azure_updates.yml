@@ -1,12 +1,12 @@
-- text: 'Retirement: Pod name dimension in AKS pod platform metrics'
+- text: 'Generally Available: Anyscale on Azure'
   meta: Compute · Today
+  dot: blue
+- text: 'Generally Available: Enabling the Bulk admin role for SQL Server on Linux'
+  meta: Launched · Today
+  dot: blue
+- text: 'Retirement: Pod name dimension in AKS pod platform metrics'
+  meta: Compute · Yesterday
   dot: blue
 - text: 'Retirement: Azure App Service on Azure Stack Hub'
-  meta: Compute · Today
-  dot: blue
-- text: 'Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027'
-  meta: Compute · Today
-  dot: blue
-- text: 'Retirement: Always Encrypted with Intel SGX Enclaves'
-  meta: Databases · Today
+  meta: Compute · Yesterday
   dot: blue
