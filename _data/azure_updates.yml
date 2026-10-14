@@ -1,14 +1,14 @@
 - text: 'Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled
     Kubernetes clusters'
-  meta: Retirements · 3 days ago
+  meta: Retirements · 4 days ago
   dot: blue
 - text: 'Generally Available: Managed StandardV2 NAT Gateway for AKS'
-  meta: Compute · 4 days ago
+  meta: Compute · 5 days ago
   dot: blue
 - text: 'Generally Available: Azure Database for PostgreSQL flexible server in East
     US 3'
-  meta: Databases · 4 days ago
+  meta: Databases · 5 days ago
   dot: blue
 - text: 'Retirement: Microsoft Dev Box will be retired on September 18, 2028'
-  meta: Developer tools · 4 days ago
+  meta: Developer tools · 5 days ago
   dot: blue
