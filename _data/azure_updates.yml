@@ -1,13 +1,14 @@
+- text: 'Public Preview: Azure Databricks Private network gateway'
+  meta: AI + machine learning · Today
+  dot: cyan
+- text: 'Generally Available: External key management for Azure Key Vault Managed
+    HSM'
+  meta: Security · Today
+  dot: avanade
 - text: 'Public Preview: Azure Files cross-region data copy and synchronization with
     Azure Storage Mover'
-  meta: Storage · Today
+  meta: Storage · Yesterday
   dot: blue
 - text: 'Generally Available: Standard service endpoint'
-  meta: Networking · Today
+  meta: Networking · Yesterday
   dot: amber
-- text: 'Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets'
-  meta: Launched · Today
-  dot: blue
-- text: 'Generally Available: Azure Cloud HSM hardware audit logging'
-  meta: Launched · Yesterday
-  dot: blue
