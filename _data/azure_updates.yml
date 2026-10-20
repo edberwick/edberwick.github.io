@@ -1,14 +1,14 @@
+- text: 'Generally Available: Metrics usage insights for Azure Monitor workspace'
+  meta: DevOps · Today
+  dot: blue
+- text: 'Generally Available: Azure DNS enables DNS-based load balancing through Traffic
+    Manager linked records'
+  meta: Networking · Today
+  dot: blue
 - text: 'Public Preview: Azure Databricks Private network gateway'
-  meta: AI + machine learning · 2 days ago
+  meta: AI + machine learning · 3 days ago
   dot: cyan
 - text: 'Generally Available: External key management for Azure Key Vault Managed
     HSM'
-  meta: Security · 2 days ago
+  meta: Security · 3 days ago
   dot: avanade
-- text: 'Public Preview: Azure Files cross-region data copy and synchronization with
-    Azure Storage Mover'
-  meta: Storage · 3 days ago
-  dot: blue
-- text: 'Generally Available: Standard service endpoint'
-  meta: Networking · 3 days ago
-  dot: amber
