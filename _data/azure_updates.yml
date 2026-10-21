@@ -1,14 +1,14 @@
-- text: 'Generally Available: Metrics usage insights for Azure Monitor workspace'
-  meta: DevOps · Today
-  dot: blue
-- text: 'Generally Available: Azure DNS enables DNS-based load balancing through Traffic
-    Manager linked records'
+- text: 'Public Preview: Disable VNet peering route'
   meta: Networking · Today
   dot: blue
-- text: 'Public Preview: Azure Databricks Private network gateway'
-  meta: AI + machine learning · 3 days ago
-  dot: cyan
-- text: 'Generally Available: External key management for Azure Key Vault Managed
-    HSM'
-  meta: Security · 3 days ago
+- text: 'Generally Available: Service tag match condition for Azure Front Door Premium
+    WAF'
+  meta: Networking · Today
   dot: avanade
+- text: 'Generally Available: Keyless TLS on Application Gateway with Azure Key Vault
+    Managed HSM'
+  meta: Networking · Today
+  dot: avanade
+- text: 'Generally Available: Advanced platform metrics for Azure Monitor'
+  meta: DevOps · Today
+  dot: blue
