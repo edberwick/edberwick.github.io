@@ -1,14 +1,13 @@
+- text: 'Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra'
+  meta: Identity · Today
+  dot: blue
+- text: 'Generally Available: Azure Cosmos DB Safe Key Rotation'
+  meta: Databases · Today
+  dot: blue
 - text: 'Public Preview: Disable VNet peering route'
-  meta: Networking · Today
+  meta: Networking · Yesterday
   dot: blue
 - text: 'Generally Available: Service tag match condition for Azure Front Door Premium
     WAF'
-  meta: Networking · Today
+  meta: Networking · Yesterday
   dot: avanade
-- text: 'Generally Available: Keyless TLS on Application Gateway with Azure Key Vault
-    Managed HSM'
-  meta: Networking · Today
-  dot: avanade
-- text: 'Generally Available: Advanced platform metrics for Azure Monitor'
-  meta: DevOps · Today
-  dot: blue
