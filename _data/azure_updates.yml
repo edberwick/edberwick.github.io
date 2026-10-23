@@ -1,13 +1,12 @@
+- text: 'Generally Available: ABFS Vectored Read for Azure Data Lake Storage'
+  meta: Storage · Today
+  dot: blue
 - text: 'Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra'
-  meta: Identity · Today
+  meta: Identity · Yesterday
   dot: blue
 - text: 'Generally Available: Azure Cosmos DB Safe Key Rotation'
-  meta: Databases · Today
+  meta: Databases · Yesterday
   dot: blue
 - text: 'Public Preview: Disable VNet peering route'
-  meta: Networking · Yesterday
+  meta: Networking · 2 days ago
   dot: blue
-- text: 'Generally Available: Service tag match condition for Azure Front Door Premium
-    WAF'
-  meta: Networking · Yesterday
-  dot: avanade
