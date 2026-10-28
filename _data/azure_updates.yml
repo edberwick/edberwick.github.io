@@ -1,13 +1,14 @@
+- text: 'Generally Available: Higher limit of Azure Blob Storage accounts per region
+    per subscription'
+  meta: Storage · Today
+  dot: blue
+- text: 'Generally Available: Cost management and tagging for Claude models in Microsoft
+    Foundry'
+  meta: AI + machine learning · Today
+  dot: cyan
+- text: 'Generally Available: Azure Front Door profile and route level WAF policies'
+  meta: Networking · Today
+  dot: avanade
 - text: 'Generally Available: Network Watcher VNet flow logs filtering'
-  meta: Management and governance · Today
-  dot: blue
-- text: 'Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2
-    and Ultra Disks in Azure Backup'
-  meta: Management and governance · 3 days ago
-  dot: blue
-- text: 'Generally Available: ABFS Vectored Read for Azure Data Lake Storage'
-  meta: Storage · 4 days ago
-  dot: blue
-- text: 'Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra'
-  meta: Identity · 5 days ago
+  meta: Management and governance · Yesterday
   dot: blue
