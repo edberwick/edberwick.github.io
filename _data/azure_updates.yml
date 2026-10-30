@@ -1,14 +1,13 @@
+- text: 'Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations'
+  meta: Launched · Today
+  dot: blue
+- text: 'Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF'
+  meta: Networking · Today
+  dot: avanade
+- text: 'Generally Available: Azure MCP Server 3.0'
+  meta: Developer tools · Today
+  dot: blue
 - text: 'Announcing: Migrate Azure Container Apps logging destination from Log Analytics
     to Azure Monitor'
-  meta: Containers · Today
-  dot: blue
-- text: 'Public Preview: Cross Tenant Restore with Azure Backup'
-  meta: Management and governance · Today
-  dot: avanade
-- text: 'Generally Available: Marketplace private offer enhancements'
-  meta: Management and governance · Today
-  dot: blue
-- text: 'Generally Available: Higher limit of Azure Blob Storage accounts per region
-    per subscription'
-  meta: Storage · Yesterday
+  meta: Containers · Yesterday
   dot: blue
