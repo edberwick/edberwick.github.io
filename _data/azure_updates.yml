@@ -1,13 +1,13 @@
+- text: 'Public Preview: Support database-level managed identity (including FIC) in
+    Create Database Scoped Credential T-SQL'
+  meta: Databases · Today
+  dot: blue
 - text: 'Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations'
-  meta: Launched · Today
+  meta: Launched · Yesterday
   dot: blue
 - text: 'Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF'
-  meta: Networking · Today
+  meta: Networking · Yesterday
   dot: avanade
 - text: 'Generally Available: Azure MCP Server 3.0'
-  meta: Developer tools · Today
-  dot: blue
-- text: 'Announcing: Migrate Azure Container Apps logging destination from Log Analytics
-    to Azure Monitor'
-  meta: Containers · Yesterday
+  meta: Developer tools · Yesterday
   dot: blue
