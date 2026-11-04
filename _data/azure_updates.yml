@@ -1,15 +1,13 @@
-- text: 'Public Preview: On-prem NAS share discovery and assessment are now available
-    using Azure Migrate'
-  meta: Management and governance · Today
-  dot: blue
-- text: 'Retirement: OT security in Microsoft Defender for IoT'
-  meta: Retirements · Today
-  dot: blue
-- text: 'Generally Available: Change from virtual network integration to a private
-    endpoint capable network configuration in Azure Database for PostgreSQL flexible
-    server'
-  meta: Databases · Today
-  dot: blue
-- text: 'Retirement: Azure Fluid Relay'
-  meta: Web · Today
+- text: 'Public Preview: JWT validation for Application Gateway for Containers'
+  meta: Networking · Today
+  dot: avanade
+- text: 'Public Preview: MCP gateway for Application Gateway for Containers'
+  meta: Networking · Today
+  dot: avanade
+- text: 'Public Preview: Private ingress for Application Gateway for Containers'
+  meta: Networking · Today
+  dot: avanade
+- text: 'Public Preview: Advanced capacity insights are now available in Azure Storage
+    Discovery'
+  meta: Storage · Today
   dot: blue
