@@ -1,13 +1,14 @@
-- text: 'Public Preview: JWT validation for Application Gateway for Containers'
+- text: 'Generally Available: Azure Database for PostgreSQL stable REST API version
+    2026-10-01'
+  meta: Databases · Today
+  dot: blue
+- text: 'Generally Available: Route maps for Azure Route Server'
+  meta: Networking · Today
+  dot: blue
+- text: 'Public Preview: Azure Firewall IPv6 now supports application rules'
   meta: Networking · Today
   dot: avanade
-- text: 'Public Preview: MCP gateway for Application Gateway for Containers'
-  meta: Networking · Today
-  dot: avanade
-- text: 'Public Preview: Private ingress for Application Gateway for Containers'
-  meta: Networking · Today
-  dot: avanade
-- text: 'Public Preview: Advanced capacity insights are now available in Azure Storage
-    Discovery'
-  meta: Storage · Today
+- text: 'Retirement: Transition to Entra ID (formerly known as Azure AD) to query
+    data from Azure Monitor application insights by March 31, 2027'
+  meta: DevOps · May 2023
   dot: blue
