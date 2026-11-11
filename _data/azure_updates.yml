@@ -1,15 +1,12 @@
-- text: 'Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November
-    10, 2026'
+- text: 'Public Preview: Distributed accelerator for cloud storage on AKS'
+  meta: Containers · Today
+  dot: blue
+- text: 'Generally Available: Azure Functions support for .NET 11'
   meta: Compute · Today
   dot: blue
-- text: 'Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync'
-  meta: In preview · Today
-  dot: blue
-- text: 'Generally Available: Azure Front Door TLS key exchange policy with post-quantum
-    support'
-  meta: Networking · 4 days ago
+- text: 'Public Preview: Azure Front Door adds native gRPC support'
+  meta: Networking · Today
   dot: avanade
-- text: 'Generally Available: Azure Database for PostgreSQL stable REST API version
-    2026-10-01'
-  meta: Databases · 5 days ago
-  dot: blue
+- text: 'Generally Available: Azure Front Door edge actions'
+  meta: Networking · Today
+  dot: avanade
