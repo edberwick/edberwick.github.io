@@ -1,12 +1,12 @@
-- text: 'Public Preview: Distributed accelerator for cloud storage on AKS'
-  meta: Containers · Today
-  dot: blue
-- text: 'Generally Available: Azure Functions support for .NET 11'
-  meta: Compute · Today
-  dot: blue
-- text: 'Public Preview: Azure Front Door adds native gRPC support'
+- text: 'Public Preview: Rate limit grouping for Azure Front Door Premium WAF'
   meta: Networking · Today
   dot: avanade
-- text: 'Generally Available: Azure Front Door edge actions'
-  meta: Networking · Today
+- text: 'Public Preview: Distributed accelerator for cloud storage on AKS'
+  meta: Containers · Yesterday
+  dot: blue
+- text: 'Generally Available: Azure Functions support for .NET 11'
+  meta: Compute · Yesterday
+  dot: blue
+- text: 'Public Preview: Azure Front Door adds native gRPC support'
+  meta: Networking · Yesterday
   dot: avanade
