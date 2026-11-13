@@ -1,12 +1,12 @@
-- text: 'Public Preview: Rate limit grouping for Azure Front Door Premium WAF'
+- text: 'Public Preview: JWT validation with Azure Front Door Auth Policy'
   meta: Networking · Today
   dot: avanade
-- text: 'Public Preview: Distributed accelerator for cloud storage on AKS'
-  meta: Containers · Yesterday
-  dot: blue
-- text: 'Generally Available: Azure Functions support for .NET 11'
-  meta: Compute · Yesterday
-  dot: blue
-- text: 'Public Preview: Azure Front Door adds native gRPC support'
-  meta: Networking · Yesterday
+- text: 'Generally Available: Azure Front Door mutual TLS authentication'
+  meta: Networking · Today
   dot: avanade
+- text: 'Public Preview: Auto scaling of ingestion limits in Azure Monitor workspace'
+  meta: Compute · Today
+  dot: blue
+- text: 'Public Preview: SQL performance monitoring for Azure SQL Managed Instance'
+  meta: Databases · Today
+  dot: blue
