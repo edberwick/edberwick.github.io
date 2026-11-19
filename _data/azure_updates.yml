@@ -1,14 +1,14 @@
-- text: 'Public Preview: Immutable snapshots for Azure Disk Storage'
-  meta: Storage · Today
+- text: 'Public Preview: AI bot ruleset for Azure Front Door Premium WAF'
+  meta: Networking · Today
   dot: avanade
-- text: 'Announcing: Azure Boost observability for NVMe disks'
-  meta: Storage · Today
+- text: 'Announcing: The new Azure Databricks on Azure Government is now in Beta'
+  meta: AI + machine learning · Today
+  dot: cyan
+- text: 'Generally Available: Cross-subscription backup for Azure Virtual Machines
+    in Azure Backup'
+  meta: Management and governance · Today
   dot: blue
-- text: 'Generally Available: Cobalt 200 Arm-based Dplsv7, Dpsv7, Epsv7, Mpsv4, and
-    Lpsv5-series Virtual Machines'
-  meta: Compute · Today
-  dot: blue
-- text: 'Generally Available: Intel and AMD v6 with temp disk for Azure Database for
-    PostgreSQL'
+- text: 'Public Preview: AI-powered application and database modernization with Modernize
+    CLI'
   meta: Databases · Today
   dot: blue
