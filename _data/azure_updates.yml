@@ -1,14 +1,13 @@
-- text: 'Public Preview: AI bot ruleset for Azure Front Door Premium WAF'
-  meta: Networking · Today
-  dot: avanade
-- text: 'Announcing: The new Azure Databricks on Azure Government is now in Beta'
-  meta: AI + machine learning · Today
-  dot: cyan
-- text: 'Generally Available: Cross-subscription backup for Azure Virtual Machines
-    in Azure Backup'
-  meta: Management and governance · Today
+- text: 'Announcing: Multiparty private offers in Microsoft Marketplace expands to
+    Malaysia and Saudi Arabia'
+  meta: Microsoft Ignite · Today
   dot: blue
-- text: 'Public Preview: AI-powered application and database modernization with Modernize
-    CLI'
+- text: 'Generally Available: Soft delete in Azure Compute Gallery'
+  meta: Microsoft Ignite · Today
+  dot: blue
+- text: 'Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL'
   meta: Databases · Today
+  dot: blue
+- text: 'Public Preview: Zone resilience for Azure VMs'
+  meta: Microsoft Inspire · Today
   dot: blue
