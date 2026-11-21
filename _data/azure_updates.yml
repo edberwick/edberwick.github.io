@@ -1,13 +1,15 @@
-- text: 'Announcing: Multiparty private offers in Microsoft Marketplace expands to
-    Malaysia and Saudi Arabia'
-  meta: Microsoft Ignite · Today
+- text: 'Generally Available: Governance policy guidance in Foundry Canvas and VS
+    Code'
+  meta: AI + machine learning · Today
+  dot: cyan
+- text: 'Public Preview: Microsoft Copilot harness support in Foundry Toolkit for
+    VS Code'
+  meta: AI + machine learning · Today
+  dot: cyan
+- text: 'Retirement: Support for Azure Functions OpenAI Extension ends on April 20,
+    2027'
+  meta: Compute · Today
   dot: blue
-- text: 'Generally Available: Soft delete in Azure Compute Gallery'
-  meta: Microsoft Ignite · Today
-  dot: blue
-- text: 'Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL'
-  meta: Databases · Today
-  dot: blue
-- text: 'Public Preview: Zone resilience for Azure VMs'
-  meta: Microsoft Inspire · Today
-  dot: blue
+- text: 'Public Preview: Programmed Training in Microsoft Foundry'
+  meta: AI + machine learning · Today
+  dot: cyan
