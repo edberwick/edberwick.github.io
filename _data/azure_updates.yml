@@ -1,15 +1,13 @@
-- text: 'Generally Available: Governance policy guidance in Foundry Canvas and VS
-    Code'
-  meta: AI + machine learning · 2 days ago
+- text: 'Public Preview: Enterprise Knowledge Graph in Foundry IQ'
+  meta: AI + machine learning · Today
   dot: cyan
-- text: 'Public Preview: Microsoft Copilot harness support in Foundry Toolkit for
-    VS Code'
-  meta: AI + machine learning · 2 days ago
+- text: 'Public Preview: Updated Guardrails experience in Microsoft Foundry'
+  meta: AI + machine learning · Today
   dot: cyan
-- text: 'Retirement: Support for Azure Functions OpenAI Extension ends on April 20,
-    2027'
-  meta: Compute · 2 days ago
-  dot: blue
-- text: 'Public Preview: Programmed Training in Microsoft Foundry'
-  meta: AI + machine learning · 2 days ago
+- text: 'Public Preview: IQ Retriever Zero in Foundry IQ'
+  meta: AI + machine learning · Today
+  dot: cyan
+- text: 'Public Preview: Style and instruction control for HD V3 voices in Azure Speech
+    in Foundry Tools'
+  meta: AI + machine learning · Today
   dot: cyan
