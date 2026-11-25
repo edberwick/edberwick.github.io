@@ -1,13 +1,15 @@
-- text: 'Public Preview: Enterprise Knowledge Graph in Foundry IQ'
+- text: 'Generally Available: Azure Site Recovery support for zonal disaster recovery
+    for Ultra disks'
+  meta: Management and governance · Today
+  dot: blue
+- text: 'Public Preview: Optimize agents from insights in Foundry Agent Service'
   meta: AI + machine learning · Today
   dot: cyan
-- text: 'Public Preview: Updated Guardrails experience in Microsoft Foundry'
+- text: 'Public Preview: Govern MCP tools with your own gateway in Microsoft Foundry
+    Agent Service'
   meta: AI + machine learning · Today
   dot: cyan
-- text: 'Public Preview: IQ Retriever Zero in Foundry IQ'
-  meta: AI + machine learning · Today
-  dot: cyan
-- text: 'Public Preview: Style and instruction control for HD V3 voices in Azure Speech
-    in Foundry Tools'
+- text: 'Generally Available: Use Azure Storage permissions in Azure AI Search and
+    Foundry IQ'
   meta: AI + machine learning · Today
   dot: cyan
