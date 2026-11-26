@@ -1,15 +1,14 @@
+- text: 'Public Preview: ECMP Nexthop'
+  meta: Networking · Today
+  dot: blue
+- text: 'Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September
+    1, 2027'
+  meta: Compute · Today
+  dot: blue
 - text: 'Generally Available: Azure Site Recovery support for zonal disaster recovery
     for Ultra disks'
-  meta: Management and governance · Today
+  meta: Management and governance · Yesterday
   dot: blue
 - text: 'Public Preview: Optimize agents from insights in Foundry Agent Service'
-  meta: AI + machine learning · Today
-  dot: cyan
-- text: 'Public Preview: Govern MCP tools with your own gateway in Microsoft Foundry
-    Agent Service'
-  meta: AI + machine learning · Today
-  dot: cyan
-- text: 'Generally Available: Use Azure Storage permissions in Azure AI Search and
-    Foundry IQ'
-  meta: AI + machine learning · Today
+  meta: AI + machine learning · Yesterday
   dot: cyan
