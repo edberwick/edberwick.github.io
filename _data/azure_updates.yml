@@ -1,14 +1,14 @@
 - text: 'Public Preview: ECMP Nexthop'
-  meta: Networking · Yesterday
+  meta: Networking · 2 days ago
   dot: blue
 - text: 'Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September
     1, 2027'
-  meta: Compute · Yesterday
+  meta: Compute · 2 days ago
   dot: blue
 - text: 'Generally Available: Azure Site Recovery support for zonal disaster recovery
     for Ultra disks'
-  meta: Management and governance · 2 days ago
+  meta: Management and governance · 3 days ago
   dot: blue
 - text: 'Public Preview: Optimize agents from insights in Foundry Agent Service'
-  meta: AI + machine learning · 2 days ago
+  meta: AI + machine learning · 3 days ago
   dot: cyan
